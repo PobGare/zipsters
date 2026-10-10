@@ -24,10 +24,7 @@
       "renditions": [
         "henley-black-1200.jpg",
         "henley-black-480.jpg",
-        "henley-black-960.jpg",
-        "henley-black-alt-1200.jpg",
-        "henley-black-alt-480.jpg",
-        "henley-black-alt-960.jpg"
+        "henley-black-960.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
@@ -53,10 +50,7 @@
       "renditions": [
         "henley-white-1200.jpg",
         "henley-white-480.jpg",
-        "henley-white-960.jpg",
-        "henley-white-alt-1200.jpg",
-        "henley-white-alt-480.jpg",
-        "henley-white-alt-960.jpg"
+        "henley-white-960.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
@@ -77,15 +71,12 @@
       "name": "henley-brown",
       "original": "assets/originals/712523869.jpg",
       "sourceProfile": "https://www.instagram.com/zipstersofficial/",
-      "sourcePost": null,
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DZAboVqNvEj/",
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
       "renditions": [
         "henley-brown-1200.jpg",
         "henley-brown-480.jpg",
-        "henley-brown-960.jpg",
-        "henley-brown-alt-1200.jpg",
-        "henley-brown-alt-480.jpg",
-        "henley-brown-alt-960.jpg"
+        "henley-brown-960.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
@@ -111,10 +102,7 @@
       "renditions": [
         "henley-grey-1200.jpg",
         "henley-grey-480.jpg",
-        "henley-grey-960.jpg",
-        "henley-grey-alt-1200.jpg",
-        "henley-grey-alt-480.jpg",
-        "henley-grey-alt-960.jpg"
+        "henley-grey-960.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
@@ -239,7 +227,7 @@
       "name": "denim",
       "original": "assets/originals/711426318.jpg",
       "sourceProfile": "https://www.instagram.com/zipstersofficial/",
-      "sourcePost": null,
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DY_2WcXtBko/",
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
       "renditions": [
         "denim-1200.jpg",
@@ -291,6 +279,86 @@
         "look-recline-960.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "mesh-black-alt",
+      "original": "assets/originals/724312887.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DZuRAHQP5xV/",
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
+      "renditions": [
+        "mesh-black-alt-1200.jpg",
+        "mesh-black-alt-480.jpg",
+        "mesh-black-alt-960.jpg"
+      ]
+    },
+    {
+      "name": "denim-styled",
+      "original": "assets/originals/711885901.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DY_3VhYN0H8/",
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
+      "renditions": [
+        "denim-styled-1200.jpg",
+        "denim-styled-480.jpg",
+        "denim-styled-960.jpg"
+      ],
+      "note": "Styling photograph from an official Mesh T-shirt post. Matching blue denim construction is visible; merchant should confirm final SKU/media assignments during catalog setup."
+    },
+    {
+      "name": "pleated-pants-alt",
+      "original": "assets/originals/658981347.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DWtzdJRjT7s/",
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
+      "renditions": [
+        "pleated-pants-alt-1200.jpg",
+        "pleated-pants-alt-480.jpg",
+        "pleated-pants-alt-960.jpg"
+      ]
+    },
+    {
+      "name": "pleated-pants-third",
+      "original": "assets/originals/658540374.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DWtzdJRjT7s/",
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
+      "renditions": [
+        "pleated-pants-third-1200.jpg",
+        "pleated-pants-third-480.jpg",
+        "pleated-pants-third-960.jpg"
+      ]
+    },
+    {
+      "name": "campaign-cafe",
+      "original": "assets/originals/817456040.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/adnan_lawrance/p/DdcWsU6kxX8/",
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
+      "renditions": [
+        "campaign-cafe-1200.jpg",
+        "campaign-cafe-2400.jpg",
+        "campaign-cafe-480.jpg",
+        "campaign-cafe-960.jpg"
+      ]
+    },
+    {
+      "name": "henley-macro",
+      "original": "assets/originals/714383629.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from the official Zipsters Instagram account or a collaboration visible on its profile.",
+      "processing": "Detail crop from the original photograph: x=1000, y=50, width=1700, height=1500; resized JPEG renditions. No generated or retouched content.",
+      "renditions": [
+        "henley-macro-1200.jpg",
+        "henley-macro-480.jpg",
+        "henley-macro-960.jpg"
+      ]
     }
   ]
 }

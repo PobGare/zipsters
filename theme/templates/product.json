@@ -3,9 +3,16 @@
     "main": {
       "type": "main-product",
       "settings": {}
+    },
+    "related": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Continue the wardrobe."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "related"
   ]
 }

@@ -50,7 +50,7 @@
             "title": "Textured Half Sleeve Henley",
             "color": "Brown",
             "fallback": "henley-brown",
-            "fallback_alt": "",
+            "fallback_alt": "look-brown",
             "link": "/products/textured-half-sleeve-henley-brown"
           }
         },
@@ -85,8 +85,8 @@
       "type": "featured-collection",
       "settings": {
         "anchor": "wardrobe",
-        "eyebrow": "BEYOND THE HENLEY",
-        "heading": "Complete the everyday.",
+        "eyebrow": "THE REST OF THE WARDROBE",
+        "heading": "Beyond the Henley.",
         "copy": "A considered rotation. A character of its own.",
         "limit": 4,
         "label": "SHOP THE WARDROBE",
@@ -109,7 +109,7 @@
             "title": "Mesh Tee",
             "color": "Black",
             "fallback": "mesh-black",
-            "fallback_alt": "",
+            "fallback_alt": "mesh-black-alt",
             "link": "/products/mesh-tee-black"
           }
         },
@@ -119,7 +119,7 @@
             "title": "Raw Denim Pants",
             "color": "Denim",
             "fallback": "denim",
-            "fallback_alt": "",
+            "fallback_alt": "denim-styled",
             "link": "/products/raw-denim-pants"
           }
         },
@@ -129,7 +129,7 @@
             "title": "Pleated Suit Pants",
             "color": "Black",
             "fallback": "pleated-pants",
-            "fallback_alt": "",
+            "fallback_alt": "pleated-pants-alt",
             "link": "/products/pleated-suit-pants-black"
           }
         }
@@ -154,7 +154,7 @@
       "type": "lookbook",
       "settings": {
         "heading": "A way of wearing it.",
-        "copy": "From the first coffee to the last light. A few ways to make it yours."
+        "copy": "Three looks. One point of view. The Henley, from the city to a change of scene."
       },
       "blocks": {
         "architecture": {
@@ -162,7 +162,7 @@
           "settings": {
             "fallback": "henley-white-alt",
             "caption": "The Henley & the pleats.",
-            "note": "01 / IN THE CITY",
+            "note": "CITY / HENLEY + PLEATS",
             "link": "/products/textured-half-sleeve-henley-white"
           }
         },
@@ -171,7 +171,7 @@
           "settings": {
             "fallback": "look-cafe",
             "caption": "An afternoon, well spent.",
-            "note": "02 / AT EASE",
+            "note": "CAFÉ / AFTER HOURS",
             "link": "/collections/henleys"
           }
         },
@@ -180,7 +180,7 @@
           "settings": {
             "fallback": "look-riverside",
             "caption": "A change of scene.",
-            "note": "03 / OUT OF OFFICE",
+            "note": "AWAY / OFF DUTY",
             "link": "/products/textured-half-sleeve-henley-dark-grey"
           }
         }
@@ -194,8 +194,8 @@
     "details": {
       "type": "details-story",
       "settings": {
-        "heading": "It’s all in\nthe details.",
-        "copy": "The open neckline. The button placket. The texture you can see. The small things that make a Henley a Henley.",
+        "heading": "Character,\nup close.",
+        "copy": "The button placket. The open neckline. The texture in the light. A closer look at the Zipsters Henley.",
         "link": "/collections/henleys"
       }
     },
