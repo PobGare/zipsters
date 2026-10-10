@@ -1,0 +1,14 @@
+{
+  "name": "zipsters-storefront",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "audit": "node scripts/audit-preview.mjs"
+  },
+  "dependencies": {
+    "liquidjs": "^10.21.1"
+  }
+}

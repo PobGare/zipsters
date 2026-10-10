@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+const base='http://localhost:4173';
+const pages=new Set(['/','/collections/henleys','/collections/all','/collections/t-shirts','/collections/pants','/search?q=Henley','/cart']);const assets=new Set();const errors=[];
+for(const page of pages){const r=await fetch(base+page);if(!r.ok){errors.push(`${page}: ${r.status}`);continue}const html=await r.text();if(/Liquid error|undefined variable/i.test(html))errors.push(`${page}: render error`);for(const [,url] of html.matchAll(/(?:href|src)="([^"]+)"/g)){if(url.startsWith('/assets/'))assets.add(url);else if(/^\/(products|collections)\//.test(url))pages.add(url)}for(const [,set] of html.matchAll(/srcset="([^"]+)"/g))for(const item of set.split(','))assets.add(item.trim().split(' ')[0]);}
+let bytes=0;await Promise.all([...assets].map(async a=>{const r=await fetch(base+a);if(!r.ok)errors.push(`${a}: ${r.status}`);else bytes+=(await r.arrayBuffer()).byteLength;}));
+const result={pages:pages.size,assets:assets.size,referencedAssetBytes:bytes,errors};await fs.mkdir('research/qa',{recursive:true});await fs.writeFile('research/qa/link-audit.json',JSON.stringify(result,null,2));console.log(result);if(errors.length)process.exitCode=1;

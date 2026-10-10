@@ -1,0 +1,296 @@
+{
+  "photographyPolicy": "Real Zipsters Instagram photography only. No AI, stock or reference-brand photography.",
+  "images": [
+    {
+      "name": "hero-cafe",
+      "original": "assets/originals/836117967.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/mirxa_haadi/p/DeFAzrigITD/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "hero-cafe-1200.jpg",
+        "hero-cafe-2400.jpg",
+        "hero-cafe-480.jpg",
+        "hero-cafe-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-black",
+      "original": "assets/originals/825325436.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/Ddv0fb2jTFx/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-black-1200.jpg",
+        "henley-black-480.jpg",
+        "henley-black-960.jpg",
+        "henley-black-alt-1200.jpg",
+        "henley-black-alt-480.jpg",
+        "henley-black-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-black-alt",
+      "original": "assets/originals/825325299.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/Ddv0fb2jTFx/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-black-alt-1200.jpg",
+        "henley-black-alt-480.jpg",
+        "henley-black-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-white",
+      "original": "assets/originals/714383629.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-white-1200.jpg",
+        "henley-white-480.jpg",
+        "henley-white-960.jpg",
+        "henley-white-alt-1200.jpg",
+        "henley-white-alt-480.jpg",
+        "henley-white-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-white-alt",
+      "original": "assets/originals/806505256.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DdLqoHoDQm7/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-white-alt-1200.jpg",
+        "henley-white-alt-480.jpg",
+        "henley-white-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-brown",
+      "original": "assets/originals/712523869.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-brown-1200.jpg",
+        "henley-brown-480.jpg",
+        "henley-brown-960.jpg",
+        "henley-brown-alt-1200.jpg",
+        "henley-brown-alt-480.jpg",
+        "henley-brown-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-brown-alt",
+      "original": "assets/originals/830695312.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/mirxa_haadi/p/Dd_lKuYAC91/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-brown-alt-1200.jpg",
+        "henley-brown-alt-480.jpg",
+        "henley-brown-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-grey",
+      "original": "assets/originals/710667119.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-grey-1200.jpg",
+        "henley-grey-480.jpg",
+        "henley-grey-960.jpg",
+        "henley-grey-alt-1200.jpg",
+        "henley-grey-alt-480.jpg",
+        "henley-grey-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-grey-alt",
+      "original": "assets/originals/779786755.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-grey-alt-1200.jpg",
+        "henley-grey-alt-480.jpg",
+        "henley-grey-alt-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "henley-long-white",
+      "original": "assets/originals/753137331.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "henley-long-white-1200.jpg",
+        "henley-long-white-480.jpg",
+        "henley-long-white-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "story-garden",
+      "original": "assets/originals/764817420.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "story-garden-1200.jpg",
+        "story-garden-480.jpg",
+        "story-garden-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "campaign-garden",
+      "original": "assets/originals/684572580.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/p/DYCETL6DXHX/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "campaign-garden-1200.jpg",
+        "campaign-garden-480.jpg",
+        "campaign-garden-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "look-cafe",
+      "original": "assets/originals/817456040.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/adnan_lawrance/p/DdcWsU6kxX8/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "look-cafe-1200.jpg",
+        "look-cafe-480.jpg",
+        "look-cafe-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "look-riverside",
+      "original": "assets/originals/766075056.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "look-riverside-1200.jpg",
+        "look-riverside-480.jpg",
+        "look-riverside-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "look-brown",
+      "original": "assets/originals/807921218.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/ahtexhammm/p/DdQOmNnjPLp/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "look-brown-1200.jpg",
+        "look-brown-480.jpg",
+        "look-brown-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "mesh-black",
+      "original": "assets/originals/747743820.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "mesh-black-1200.jpg",
+        "mesh-black-480.jpg",
+        "mesh-black-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "mesh-white",
+      "original": "assets/originals/752610051.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "mesh-white-1200.jpg",
+        "mesh-white-480.jpg",
+        "mesh-white-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "denim",
+      "original": "assets/originals/711426318.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "denim-1200.jpg",
+        "denim-480.jpg",
+        "denim-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "pleated-pants",
+      "original": "assets/originals/662512995.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "pleated-pants-1200.jpg",
+        "pleated-pants-480.jpg",
+        "pleated-pants-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "tee-black",
+      "original": "assets/originals/753672868.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "look-studio",
+      "original": "assets/originals/741365784.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    },
+    {
+      "name": "look-recline",
+      "original": "assets/originals/651746955.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/_ubaid_here_/p/DV9G6JsCOlT/",
+      "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
+      "renditions": [
+        "look-recline-1200.jpg",
+        "look-recline-480.jpg",
+        "look-recline-960.jpg"
+      ],
+      "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
+    }
+  ]
+}

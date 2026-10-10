@@ -1,0 +1,21 @@
+{
+  "current": {
+    "background": "#f7f6f2",
+    "foreground": "#23251f",
+    "accent": "#424938",
+    "instagram_url": "https://www.instagram.com/zipstersofficial/",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {}
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "heading": "Stay in the loop."
+        }
+      }
+    }
+  },
+  "presets": {}
+}
