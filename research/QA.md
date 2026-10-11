@@ -1,4 +1,51 @@
-# Final client-presentation QA — 11 October 2026
+# Final pre-client QA — 12 October 2026
+
+## Baseline and eight scoped changes
+
+Started with a clean working tree at committed baseline `274d23a`. No destructive Git commands or new commits were made. Changes remain uncommitted for review. Approved identity, homepage hero, image grid, typography and mobile editorial layouts are preserved.
+
+1. **Shop close artifact:** the fixed header wrapper no longer paints a border beneath the expanded dropdown. The dropdown owns its background and bottom border, so they disappear together. Existing JavaScript motion is unchanged: 240ms open, 220ms close.
+2. **Header flash:** the main bar owns its background and responds independently to the existing scroll-state class. Shop no longer transfers the background between two overlapping surfaces. The scrolled header remains opaque through closure.
+3. **Everyday Uniform:** desktop detail photography extends toward the central image boundary without a restrictive maximum width. Final widths are approximately 530px at 1440, 470px at 1280 and 393px at 1024. Its 16:9 crop contains the wider inset without an oversized vertical block. Mobile composition is unchanged. Responsive image sizing was updated.
+4. **Zipsters Edit:** desktop copy and its CTA move one column inward, with more usable text width and separation from the preceding caption. Image positions, type sizes and mobile layout are unchanged.
+5. **T-shirts & mesh:** replaced the hero with the sharper real Zipsters `mesh-black` cafe photograph, from retained 3072x4096 original `747743820.jpg`. Added a 1600px responsive rendition without upscaling and updated provenance. Merchant-selected photography still takes precedence.
+6. **Pants & denim:** restored base collection sizing: 55svh, minimum 440px, maximum 590px. The original denim image uses cover and a waist-focused crop. At a 900px desktop viewport height, Pants, Henleys and T-shirts measure 495px. The separately approved Wardrobe hero retains its existing taller treatment. Mobile Pants uses the standard 260px image area; text wrapping can make total mobile hero heights differ.
+7. **Footer JOIN:** the arrow shifts 4px right and 2px up using the established CTA timing. The existing field border brightens without adding a second line. Keyboard focus uses the same treatment; reduced-motion preferences disable transitions.
+8. **Mobile drawers:** menu and cart leave an 18px exposed edge. Menu is left-anchored; cart is right-anchored. Both retain full height. Desktop cart remains 480px wide.
+
+## Current rendered verification
+
+Actual Chromium checks covered **1440, 1280, 1024, 768, 430, 390 and 360px**. The homepage and both changed collection pages were inspected at every width. Desktop story and Edit compositions were reviewed at all requested desktop sizes; preserved mobile compositions were also visually checked.
+
+- Seven-width matrix: no horizontal document overflow or broken loaded images.
+- Header cycles at scroll positions 0px, 450px, 900px and deep in the homepage: no change to body width, logo position, scroll position or header height. Below the hero, the observed bar background remained `rgb(247, 246, 242)` through Shop, Search and cart cycles.
+- Shop toggle, Escape, outside click and six repeated toggles settle to hidden/closed with `aria-expanded=false`. The wrapper has no border; the panel owns the fading border. Direct Shop-to-Search and Shop-to-cart transitions also pass.
+- Mobile menu/cart at 430/390/360: 18px exposed edge, full 844px test height, stable page/header position and released scroll lock after closing. Backdrop dismissal and Escape restore the originating control. Menu-to-Search restores focus to the menu opener on close. Keyboard Tab reaches links inside the active modal.
+- Scrolling the background while the cart is open does not move the page. No interaction-induced content shift was observed. Fixed overlay geometry does not reflow content. This is not a Lighthouse CLS score or cross-browser certification.
+- JOIN hover in/out, repeated hover and keyboard focus preserve button dimensions and the single border width; only border color and arrow transform change.
+- Final browser console: **zero errors and zero warnings**.
+
+Evidence: `research/qa/final-final-*` contains seven homepage captures, fourteen collection captures, mobile drawer captures, desktop editorial captures, `final-final-header.json` and `final-final-responsive.json`. Generated evidence is Git-ignored.
+
+## Current technical results
+
+- Official Shopify Theme Check: **31 files, zero offenses**.
+- `npm run check`: Liquid/JSON and configured imagery passed.
+- `npm run audit`: **15 pages, 92 referenced assets, zero errors**.
+- Both theme JavaScript files pass syntax checks; neither changed this pass.
+- `git diff --check`: passed; only normal Windows line-ending notices.
+
+Changed files: `theme/assets/final-polish.css`, new `theme/assets/mesh-black-1600.jpg`, `theme/sections/editorial-story.liquid`, `theme/sections/main-collection.liquid`, `theme/snippets/image.liquid`, `research/image-provenance.json`, and `research/QA.md`.
+
+## Current presentation status
+
+No known issue from these checks blocks presenting this build to Zipsters. `http://localhost:4173/` is local: remote client review needs a hosted preview or screen-share, not that address alone.
+
+Live launch still requires the real Shopify catalog, prices, inventory, policies, payments and shipping configuration. Cart mutations, checkout and newsletter submission need verification against that store. No commerce data was invented and no real order or subscription was created. Physical mobile devices and Safari remain part of live-store verification.
+
+---
+
+# Previous pass record — 11 October 2026
 
 ## Scope and baseline
 

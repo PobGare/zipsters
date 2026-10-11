@@ -208,7 +208,8 @@
       "renditions": [
         "mesh-black-1200.jpg",
         "mesh-black-480.jpg",
-        "mesh-black-960.jpg"
+        "mesh-black-960.jpg",
+        "mesh-black-1600.jpg"
       ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
