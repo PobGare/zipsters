@@ -1,11 +1,11 @@
 {% liquid
  assign hero_photo = collection.image | default: section.settings.image
- assign hero_fallback = 'henley-brown-alt'
+ assign hero_fallback = 'henley-white-alt'
  case collection.handle
  when 'henleys'
- assign hero_fallback = 'henley-black-alt'
+ assign hero_fallback = 'henley-white'
  when 't-shirts'
- assign hero_fallback = 'mesh-black-alt'
+ assign hero_fallback = 'denim-styled'
  when 'pants'
  assign hero_fallback = 'denim'
  endcase

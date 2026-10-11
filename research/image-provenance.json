@@ -49,6 +49,7 @@
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
       "renditions": [
         "henley-white-1200.jpg",
+        "henley-white-1600.jpg",
         "henley-white-480.jpg",
         "henley-white-960.jpg"
       ],
@@ -62,6 +63,7 @@
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
       "renditions": [
         "henley-white-alt-1200.jpg",
+        "henley-white-alt-1600.jpg",
         "henley-white-alt-480.jpg",
         "henley-white-alt-960.jpg"
       ],
@@ -231,6 +233,7 @@
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
       "renditions": [
         "denim-1200.jpg",
+        "denim-1600.jpg",
         "denim-480.jpg",
         "denim-960.jpg"
       ],
@@ -302,6 +305,7 @@
       "processing": "Resized JPEG renditions only. Original retained unchanged; CSS controls the display crop.",
       "renditions": [
         "denim-styled-1200.jpg",
+        "denim-styled-1600.jpg",
         "denim-styled-480.jpg",
         "denim-styled-960.jpg"
       ],

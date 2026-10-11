@@ -1,0 +1,92 @@
+/* Final client pass: scoped to the approved list of refinements. */
+
+/* A single painted pixel row prevents a border/pseudo-element double line. */
+.text-link{border-bottom:0;padding-bottom:5px}
+.text-link::after{bottom:0;height:1px;background-color:color-mix(in srgb,currentColor 30%,transparent);background-image:linear-gradient(currentColor,currentColor);background-repeat:no-repeat;background-position:left bottom;background-size:0% 100%;transform:none;transition:background-size 260ms var(--ease)}
+.text-link:hover::after,.text-link:focus-visible::after{transform:none;background-size:100% 100%}
+
+/* The menu owns its background so the entire panel can fade on exit. */
+.site-header:has(.mega-menu:not([hidden])){background:transparent}
+.header-inner{transition:background 220ms var(--ease)}
+.site-header:has(.mega-menu:not([hidden])) .header-inner,.mega-menu{background:var(--paper)}
+.search-suggestions{display:grid;grid-template-columns:repeat(2,max-content);gap:12px 28px;align-items:start}
+.search-suggestions>.eyebrow{grid-column:1/-1;font-size:8px;font-weight:500;letter-spacing:.18em;color:var(--muted);margin-bottom:2px}
+.search-suggestions>a{font-size:12px;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px;text-decoration-thickness:1px;transition:text-decoration-color 220ms var(--ease)}
+.search-suggestions>a::after{content:'↗';display:inline-block;margin-left:14px;transition:transform 220ms var(--ease)}
+.search-suggestions>a:hover,.search-suggestions>a:focus-visible{text-decoration-color:currentColor}
+.search-suggestions>a:hover::after{transform:translate(2px,-2px)}
+
+/* Wider inset, without adding height to the story. */
+.story-detail{width:88%;max-width:340px;margin-top:32px}
+.story-detail img{aspect-ratio:4/3;object-position:center 15%}
+.story-detail>span{max-width:none}
+
+/* Keep the photograph natural; shade only the right-hand reading area. */
+.campaign-shade{background:linear-gradient(90deg,transparent 40%,rgba(10,14,9,.08) 54%,rgba(10,14,9,.62) 77%,rgba(10,14,9,.52))}
+.campaign-copy{text-shadow:0 1px 10px #0003}
+.campaign-copy h2{max-width:410px}
+
+/* One connected spread: architecture leads, the café supports, the river bridges. */
+.lookbook-grid{grid-template-columns:repeat(12,minmax(0,1fr));gap:24px 22px;align-items:start}
+.lookbook-item-1{grid-column:1/8;grid-row:1/3;width:100%}
+.lookbook-item-1>a{aspect-ratio:4/5}
+.lookbook-item-1 figcaption{max-width:73%;flex-wrap:wrap}
+.lookbook-item-2{grid-column:9/13;grid-row:1;margin-top:32px}
+.lookbook-item-2>a{aspect-ratio:3/4}
+.lookbook-item-3{grid-column:7/13;grid-row:2;margin:12px 0 0;padding:14px 0 0 14px;background:var(--paper);position:relative;z-index:1;width:100%}
+.lookbook-item-3>a{aspect-ratio:16/10}
+.lookbook-item-3 img{object-position:50% 52%}
+.lookbook-note{grid-column:1/6;grid-row:3;margin:-130px 0 0;padding:0 8% 0 0;align-self:start}
+.lookbook-note p{font-size:clamp(36px,3.6vw,54px);margin:17px 0 0}
+.lookbook-cta{grid-column:1/6;grid-row:4;align-self:end;justify-self:start;margin:0}
+
+/* Each category has its own focal point, preserving the existing split hero. */
+.collection-hero--henleys .collection-hero-image img{object-position:50% 0%}
+.collection-hero--t-shirts .collection-hero-image img{object-position:50% 20%}
+.collection-hero--all{height:clamp(550px,43vw,760px);max-height:none}
+.collection-hero--all .collection-hero-image img{object-position:50% 95%}
+.collection-hero--pants{height:clamp(590px,61vw,1200px);max-height:none}
+.collection-hero--pants .collection-hero-image img{object-fit:cover;object-position:50% 70%}
+
+@media(min-width:768px) and (max-width:1100px){
+ .story-detail{width:88%;max-width:300px}
+ .lookbook-grid{gap:22px 16px}
+ .lookbook-item-2{margin-top:24px}
+ .lookbook-item-3{padding:10px 0 0 10px}
+ .lookbook-note{margin-top:-80px}
+ .lookbook-note p{font-size:36px}
+ .campaign-copy{left:60%;right:4%}
+ .campaign-copy h2{font-size:36px}
+}
+@media(max-width:767px){
+ .story-detail{width:100%;max-width:none;margin:0}
+ .story-detail img{aspect-ratio:3/4}
+ .campaign-copy{text-shadow:none}
+ .campaign-copy h2{font-size:35px}
+ .lookbook{padding-top:45px;padding-bottom:45px}
+ .lookbook .section-heading{margin-bottom:24px;padding-bottom:20px}
+ .lookbook-grid{grid-template-columns:1fr;gap:18px}
+ .lookbook-item-1{grid-column:1;grid-row:1;width:100%}
+ .lookbook-item-1>a{aspect-ratio:4/4.5}
+ .lookbook-item-1 img{object-position:50% 70%}
+ .lookbook-item-1 figcaption{max-width:none}
+ .lookbook-item-2{grid-column:1;grid-row:2;width:62%;justify-self:end;margin:4px 0 0}
+ .lookbook-item-2>a{aspect-ratio:4/3}
+ .lookbook-item-2 img{object-position:50% 30%}
+ .lookbook-note{grid-column:1;grid-row:3;margin:2px 0 0;padding:0;max-width:300px}
+ .lookbook-note p{font-size:31px;margin:10px 0 4px;line-height:1.1}
+ .lookbook-note p br{display:none}
+ .lookbook-note p em::before{content:' '}
+ .lookbook-item-3{grid-column:1;grid-row:4;margin:0;padding:0;width:90%;justify-self:end}
+ .lookbook-item-3>a{aspect-ratio:16/9}
+ .lookbook-cta{grid-column:1;grid-row:5;margin:0;justify-self:end;font-size:8px}
+ .collection-hero--pants{height:auto;min-height:0;max-height:none}
+ .collection-hero--pants .collection-hero-image{height:112vw}
+ .collection-hero--t-shirts .collection-hero-image{height:clamp(260px,76vw,340px)}
+ .collection-hero--all{height:auto;min-height:0;max-height:none}
+ .collection-hero--all .collection-hero-image{height:350px}
+ .search-suggestions{gap:12px 24px}
+ .search-suggestions>a{font-size:11px}
+}
+@media(max-width:380px){.campaign-copy h2{font-size:31px}.lookbook-note p{font-size:31px}}
+@media(prefers-reduced-motion:reduce){.text-link::after,.header-inner,.search-suggestions>a,.search-suggestions>a::after{transition:none}}

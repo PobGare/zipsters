@@ -13,13 +13,19 @@
   let menuDesired = false;
   function toggleMega(open) {
     if(!mega) return;
+    const interrupted = menuAnimation?.playState === 'running';
+    const currentFrame = interrupted ? {opacity:getComputedStyle(mega).opacity,transform:getComputedStyle(mega).transform} : null;
     menuDesired = open;
     menuAnimation?.cancel();
     megaButton.setAttribute('aria-expanded', String(open));
+    mega.inert = !open;
+    mega.dataset.state = open ? 'open' : 'closing';
     if(open) mega.hidden = false;
-    if(reduced.matches){mega.hidden = !open;return;}
-    menuAnimation = mega.animate(open ? [{opacity:0,transform:'translateY(-6px)'},{opacity:1,transform:'translateY(0)'}] : [{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-6px)'}], {duration:240,easing:'cubic-bezier(.22,.61,.36,1)'});
-    menuAnimation.finished.then(()=>{if(!menuDesired)mega.hidden=true;}).catch(()=>{});
+    if(reduced.matches){mega.hidden = !open;mega.dataset.state = open ? 'open' : 'closed';return;}
+    const start = currentFrame || (open ? {opacity:0,transform:'translateY(-6px)'} : {opacity:1,transform:'translateY(0)'});
+    const end = open ? {opacity:1,transform:'translateY(0)'} : {opacity:0,transform:'translateY(-6px)'};
+    menuAnimation = mega.animate([start,end], {duration:open ? 240 : 220,easing:'cubic-bezier(.22,.61,.36,1)',fill:'forwards'});
+    menuAnimation.finished.then(()=>{if(!menuDesired){mega.hidden=true;mega.dataset.state='closed';}}).catch(()=>{});
   }
   const closeMega = () => {if(menuDesired)toggleMega(false);};
   megaButton?.addEventListener('click',()=>toggleMega(!menuDesired));
