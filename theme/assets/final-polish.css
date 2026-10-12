@@ -44,9 +44,9 @@
 .lookbook-item-3{grid-column:7/13;grid-row:2;margin:12px 0 0;padding:14px 0 0 14px;background:var(--paper);position:relative;z-index:1;width:100%}
 .lookbook-item-3>a{aspect-ratio:16/10}
 .lookbook-item-3 img{object-position:50% 52%}
-.lookbook-note{grid-column:2/7;grid-row:3;margin:-100px 0 0;padding:0;align-self:start}
-.lookbook-note p{font-size:clamp(36px,3.6vw,54px);margin:17px 0 0}
-.lookbook-cta{grid-column:2/7;grid-row:4;align-self:end;justify-self:start;margin:0}
+.lookbook-heading-aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;max-width:260px}
+.lookbook .lookbook-intro{max-width:420px;margin:18px 0 0;text-wrap:balance}
+.lookbook-cta{display:none}
 
 /* Each category has its own focal point, preserving the existing split hero. */
 .collection-hero--henleys .collection-hero-image img{object-position:50% 0%}
@@ -67,8 +67,6 @@
  .lookbook-grid{gap:22px 16px}
  .lookbook-item-2{margin-top:24px}
  .lookbook-item-3{padding:10px 0 0 10px}
- .lookbook-note{margin-top:-44px}
- .lookbook-note p{font-size:36px}
  .campaign-copy{left:60%;right:4%}
  .campaign-copy h2{font-size:36px}
 }
@@ -79,6 +77,9 @@
  .campaign-copy h2{font-size:35px}
  .lookbook{padding-top:45px;padding-bottom:45px}
  .lookbook .section-heading{margin-bottom:24px;padding-bottom:20px}
+ .lookbook-heading-aside{display:none}
+ .lookbook .lookbook-intro{max-width:250px;margin-top:20px}
+ .lookbook-top-cta{display:none}
  .lookbook-grid{grid-template-columns:1fr;gap:18px}
  .lookbook-item-1{grid-column:1;grid-row:1;width:100%}
  .lookbook-item-1>a{aspect-ratio:4/4.5}
@@ -87,13 +88,9 @@
  .lookbook-item-2{grid-column:1;grid-row:2;width:62%;justify-self:end;margin:4px 0 0}
  .lookbook-item-2>a{aspect-ratio:4/3}
  .lookbook-item-2 img{object-position:50% 30%}
- .lookbook-note{grid-column:1;grid-row:3;margin:2px 0 0;padding:0;max-width:300px}
- .lookbook-note p{font-size:31px;margin:10px 0 4px;line-height:1.1}
- .lookbook-note p br{display:none}
- .lookbook-note p em::before{content:' '}
- .lookbook-item-3{grid-column:1;grid-row:4;margin:0;padding:0;width:90%;justify-self:end}
+ .lookbook-item-3{grid-column:1;grid-row:3;margin:0;padding:0;width:90%;justify-self:end}
  .lookbook-item-3>a{aspect-ratio:16/9}
- .lookbook-cta{grid-column:1;grid-row:5;margin:0;justify-self:end;font-size:8px}
+ .lookbook-cta{display:inline-flex;grid-column:1;grid-row:4;margin:0;justify-self:end;font-size:8px}
  .collection-hero--pants{height:auto;min-height:0;max-height:none}
  .collection-hero--pants .collection-hero-image{height:260px}
  .collection-hero--t-shirts .collection-hero-image{height:clamp(260px,76vw,340px)}
@@ -101,9 +98,13 @@
  .collection-hero--all .collection-hero-image{height:350px}
  .search-suggestions{gap:12px 24px}
  .search-suggestions>a{font-size:11px}
- #mobile-menu,#cart-drawer{width:calc(100% - 18px);max-width:calc(100% - 18px)}
+ #mobile-menu,#cart-drawer,#filter-drawer{width:calc(100% - 18px);max-width:calc(100% - 18px)}
  #mobile-menu{left:0;right:auto}
+ #mobile-menu[open]{animation-name:menu-drawer-in}
+ #mobile-menu.is-closing{animation-name:menu-drawer-out}
  #cart-drawer{left:auto;right:0}
 }
-@media(max-width:380px){.campaign-copy h2{font-size:31px}.lookbook-note p{font-size:31px}}
+@keyframes menu-drawer-in{from{transform:translateX(-100%);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes menu-drawer-out{to{transform:translateX(-100%);opacity:0}}
+@media(max-width:380px){.campaign-copy h2{font-size:31px}}
 @media(prefers-reduced-motion:reduce){.text-link::after,.header-inner,.search-suggestions>a,.search-suggestions>a::after,.newsletter-field,.newsletter-field button,.newsletter-field button span{transition:none}}
