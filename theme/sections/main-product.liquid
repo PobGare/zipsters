@@ -17,7 +17,7 @@
         <div class="gallery-slide {% if forloop.first %}is-active{% endif %}" data-gallery-slide role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ product.images.size }}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>{% render 'image', image: photo, alt: product.title, loading: photo_loading, sizes: '(max-width: 767px) 100vw, 55vw' %}</div>
         {% endfor %}
       </div>
-      <div class="gallery-controls"><span class="eyebrow">THE ZIPSTERS WARDROBE</span><div><button class="icon-button" data-gallery-prev aria-label="Previous photograph">←</button><span class="gallery-counter" data-gallery-counter aria-live="polite">1 / {{ product.images.size }}</span><button class="icon-button" data-gallery-next aria-label="Next photograph">→</button></div></div>
+      <div class="gallery-controls"><div><button class="icon-button" data-gallery-prev aria-label="Previous photograph">←</button><span class="gallery-counter" data-gallery-counter aria-live="polite">1 / {{ product.images.size }}</span><button class="icon-button" data-gallery-next aria-label="Next photograph">→</button></div></div>
     </div>
   </div>
   <div class="pdp-panel">
@@ -25,29 +25,28 @@
     <h1>{{ product.title }}</h1>
     {% if product.price != blank %}<div class="pdp-price" data-product-price>{{ chosen_variant.price | money }}</div>{% endif %}
     {% if product_color != blank %}<div class="pdp-color"><span>COLOR</span><strong>{{ product_color }}</strong></div>{% endif %}
-    {% if product.description != blank %}<div class="pdp-description">{{ product.description }}</div>{% endif %}
     {% if product.variants.size > 0 %}
       {% form 'product', product, class: 'product-form', data-product-form: '' %}
         {% if product.has_only_default_variant %}<input type="hidden" name="id" value="{{ chosen_variant.id }}">{% else %}
           <div class="option-heading"><label for="variant-{{ section.id }}">{{ 'products.choose_variant' | t }}</label>{% if section.settings.size_guide != blank %}<button type="button" class="size-guide-link" data-open="size-guide">Size guide ↗</button>{% endif %}</div>
           <select name="id" id="variant-{{ section.id }}" data-variant-select required>{% for variant in product.variants %}<option value="{{ variant.id }}" data-price="{{ variant.price | money | escape }}" data-available="{{ variant.available }}" {% if variant.id == chosen_variant.id %}selected{% endif %}>{{ variant.title }}{% unless variant.available %} — {{ 'products.unavailable' | t }}{% endunless %}</option>{% endfor %}</select>
         {% endif %}
-        <div class="purchase-actions"><button class="button" type="submit" data-add-to-bag {% unless chosen_variant.available %}disabled{% endunless %}><span data-add-label>{% if chosen_variant.available %}ADD TO BAG{% else %}UNAVAILABLE{% endif %}</span><span aria-hidden="true">↗</span></button><button class="button button-outline" type="submit" data-buy-now {% unless chosen_variant.available %}disabled{% endunless %}>BUY NOW <span aria-hidden="true">↗</span></button></div>
+        <div class="purchase-actions"><button class="button" type="submit" data-add-to-bag {% unless chosen_variant.available %}disabled{% endunless %}><span data-add-label>{% if chosen_variant.available %}ADD TO BAG{% else %}UNAVAILABLE{% endif %}</span><span aria-hidden="true">↗</span></button><button class="button button-secondary" type="submit" data-buy-now {% unless chosen_variant.available %}disabled{% endunless %}>BUY NOW <span aria-hidden="true">↗</span></button></div>
         <p data-product-error role="alert"></p>
       {% endform %}
     {% else %}
-      <div class="purchase-actions"><button class="button" data-open="purchase-preview">ADD TO BAG <span aria-hidden="true">↗</span></button><button class="button button-outline" data-open="purchase-preview">BUY NOW <span aria-hidden="true">↗</span></button></div><p class="purchase-note">Purchasing will open with the store.</p>
+      <div class="purchase-actions"><button class="button" data-open="purchase-preview">ADD TO BAG <span aria-hidden="true">↗</span></button><button class="button button-secondary" data-open="purchase-preview">BUY NOW <span aria-hidden="true">↗</span></button></div><p class="purchase-note">Purchasing will open with the store.</p>
     {% endif %}
     <div class="product-information">
+      {% if product.description != blank %}<details data-accordion><summary>DESCRIPTION</summary><div>{{ product.description }}</div></details>{% endif %}
       {% if product.metafields.custom.details != blank %}<details data-accordion><summary>THE DETAILS</summary><div>{{ product.metafields.custom.details | metafield_tag }}</div></details>{% endif %}
       {% if product.metafields.custom.fit != blank %}<details data-accordion><summary>FIT</summary><div>{{ product.metafields.custom.fit | metafield_tag }}</div></details>{% endif %}
       {% if product.metafields.custom.fabric != blank %}<details data-accordion><summary>FABRIC / MATERIAL</summary><div>{{ product.metafields.custom.fabric | metafield_tag }}</div></details>{% endif %}
       {% if product.metafields.custom.care != blank %}<details data-accordion><summary>CARE</summary><div>{{ product.metafields.custom.care | metafield_tag }}</div></details>{% endif %}
       {% if shop.shipping_policy.body != blank or shop.refund_policy.body != blank %}<details data-accordion><summary>SHIPPING & RETURNS</summary><div>{{ shop.shipping_policy.body }}{{ shop.refund_policy.body }}</div></details>{% endif %}
     </div>
-    <div class="pdp-signoff"><span class="eyebrow">ZIPSTERS</span><span>Clothes with character.</span></div>
   </div>
 </section>
 {% if section.settings.size_guide != blank %}<dialog class="drawer" id="size-guide" aria-labelledby="size-guide-title"><div class="drawer-top"><h2 id="size-guide-title">Size guide</h2><button class="icon-button" data-close aria-label="Close size guide">{% render 'icon', name: 'close' %}</button></div><div class="guide-content">{{ section.settings.size_guide.content }}</div></dialog>{% endif %}
-{% if product.variants.size == 0 %}<dialog class="purchase-preview-dialog" id="purchase-preview" aria-labelledby="purchase-preview-title"><div class="drawer-top"><span class="eyebrow">ZIPSTERS</span><button class="icon-button" data-close aria-label="Close purchase information">{% render 'icon', name: 'close' %}</button></div><div class="purchase-preview-content"><h2 id="purchase-preview-title">Almost in your wardrobe.</h2><p>Purchasing will open with the store. Confirmed prices and available options will appear here when the collection is ready to shop.</p><button class="text-link" data-close>CONTINUE EXPLORING <span>↗</span></button></div></dialog>{% endif %}
+{% if product.variants.size == 0 %}<dialog class="purchase-preview-dialog" id="purchase-preview" aria-labelledby="purchase-preview-title"><div class="drawer-top"><span class="eyebrow">ZIPSTERS</span><button class="icon-button" data-close aria-label="Close purchase information">{% render 'icon', name: 'close' %}</button></div><div class="purchase-preview-content"><h2 id="purchase-preview-title">Store preview</h2><p>Purchasing will open with the store. Confirmed prices and available options will appear here.</p><button class="text-link" data-close>CONTINUE SHOPPING <span>↗</span></button></div></dialog>{% endif %}
 {% schema %}{"name":"Product","settings":[{"type":"page","id":"size_guide","label":"Size guide page"}]}{% endschema %}

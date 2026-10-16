@@ -1,10 +1,32 @@
 {
-  "textured-half-sleeve-henley-black": {"description":"<p>A dark take on the Zipsters signature. Short sleeves and an open button placket keep the shape uncluttered; the black color works just as naturally with denim as it does with pleated trousers.</p>","details":"<ul><li>Black textured Henley</li><li>Short sleeves</li><li>Button placket and open neckline</li></ul>"},
-  "textured-half-sleeve-henley-white": {"description":"<p>White, with a little more character. The visible texture and buttoned neckline give this short-sleeve Henley its identity. Wear it against dark trousers for a clean contrast.</p>","details":"<ul><li>White textured Henley</li><li>Short sleeves</li><li>Button placket</li></ul>"},
-  "textured-half-sleeve-henley-brown": {"description":"<p>A warm brown Henley with short sleeves and a buttoned neckline. The color brings depth to a simple pairing: blue denim, pale trousers, or the black pieces already in your rotation.</p>","details":"<ul><li>Brown textured Henley</li><li>Short sleeves</li><li>Button placket</li></ul>"},
-  "textured-half-sleeve-henley-dark-grey": {"description":"<p>Dark grey gives the signature Henley a quieter edge. Short sleeves frame the textured body, while the open placket breaks up the neckline. Pair it with pleats for a considered, tonal look.</p>","details":"<ul><li>Dark grey textured Henley</li><li>Short sleeves</li><li>Button placket</li></ul>"},
-  "textured-long-sleeve-henley-white": {"description":"<p>The signature neckline, in a long-sleeve expression. White keeps the textured surface in focus, with the button placket adding a simple point of interest. A natural companion to dark pleated trousers.</p>","details":"<ul><li>White textured Henley</li><li>Long sleeves</li><li>Button placket</li></ul>","extraImages":["hero-cafe"]},
-  "mesh-tee-black": {"description":"<p>Black mesh with a sporting point of view. The contrasting 86 graphic and open V neckline give this tee a distinctive presence. Keep the styling simple and let the graphic lead.</p>","details":"<ul><li>Black mesh tee</li><li>Contrasting 86 graphic</li><li>V neckline and short sleeves</li></ul>"},
-  "raw-denim-pants": {"description":"<p>Blue denim with visible contrast stitching and a broad leg line. The pocket detailing brings structure to an otherwise straightforward silhouette. Style with a Henley or a graphic mesh tee.</p>","details":"<ul><li>Blue raw denim pants</li><li>Visible contrast stitching</li><li>Front pockets and belt loops</li></ul>"},
-  "pleated-suit-pants-black": {"description":"<p>Black trousers with visible front pleats and a long, flowing leg line. They give a simple Henley a more considered finish, without needing much else.</p>","details":"<ul><li>Black pleated suit pants</li><li>Front pleats</li><li>Belt loops and side pockets</li></ul>","extraImages":["pleated-pants-third"]}
+  "textured-half-sleeve-henley-black": {
+    "description": "<p>Black textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-white": {
+    "description": "<p>White textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-brown": {
+    "description": "<p>Brown textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-dark-grey": {
+    "description": "<p>Dark grey textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-long-sleeve-henley-white": {
+    "description": "<p>White textured Henley with long sleeves and a button placket.</p>",
+    "extraImages": [
+      "hero-cafe"
+    ]
+  },
+  "mesh-tee-black": {
+    "description": "<p>Black mesh tee with a contrasting 86 graphic and V neckline.</p>"
+  },
+  "raw-denim-pants": {
+    "description": "<p>Blue raw denim pants with contrast stitching, front pockets and belt loops.</p>"
+  },
+  "pleated-suit-pants-black": {
+    "description": "<p>Black suit pants with front pleats, belt loops and side pockets.</p>",
+    "extraImages": [
+      "pleated-pants-third"
+    ]
+  }
 }

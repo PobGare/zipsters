@@ -2,207 +2,144 @@
   "sections": {
     "hero": {
       "type": "hero",
-      "settings": {
-        "desktop_position": 37,
-        "mobile_position": 48,
-        "eyebrow": "THE SIGNATURE COLLECTION",
-        "heading": "The Henley.\nAlways in character.",
-        "copy": "An everyday essential. A distinctly Zipsters point of view.",
-        "label": "SHOP HENLEYS",
-        "link": "/collections/henleys"
-      }
+      "settings": {},
+      "blocks": {
+        "henleys": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-cafe",
+            "heading": "Henleys",
+            "link": "/collections/henleys",
+            "alignment": "right",
+            "desktop_position": 37,
+            "mobile_fallback": "hero-cafe",
+            "mobile_x": 43,
+            "mobile_position": 48,
+            "label": "SHOP NOW",
+            "alt": "White Zipsters Henley worn at a café"
+          }
+        },
+        "mesh": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-mesh",
+            "heading": "T-shirts & mesh",
+            "link": "/collections/t-shirts",
+            "alignment": "left",
+            "desktop_position": 53,
+            "mobile_fallback": "mesh-black",
+            "mobile_x": 50,
+            "mobile_position": 40,
+            "label": "SHOP NOW",
+            "alt": "Zipsters mesh tee styled with the wider wardrobe"
+          }
+        },
+        "pants": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-wardrobe",
+            "heading": "The wardrobe",
+            "link": "/collections/all",
+            "alignment": "right",
+            "desktop_position": 60,
+            "mobile_fallback": "hero-wardrobe",
+            "mobile_x": 50,
+            "mobile_position": 70,
+            "label": "SHOP NOW",
+            "alt": "Grey Zipsters Henley and black wide-leg trousers in an urban campaign look",
+            "tone": "light"
+          }
+        }
+      },
+      "block_order": [
+        "henleys",
+        "mesh",
+        "pants"
+      ]
     },
-    "signature": {
-      "type": "featured-collection",
+    "categories": {
+      "type": "product-categories",
+      "settings": {},
+      "blocks": {
+        "henleys": {
+          "type": "category",
+          "settings": {
+            "label": "Henleys",
+            "fallback": "henley-brown-alt",
+            "link": "/collections/henleys",
+            "position": 40
+          }
+        },
+        "mesh": {
+          "type": "category",
+          "settings": {
+            "label": "T-shirts & mesh",
+            "fallback": "mesh-black-alt",
+            "link": "/collections/t-shirts",
+            "position": 35
+          }
+        },
+        "pants": {
+          "type": "category",
+          "settings": {
+            "label": "Pants & denim",
+            "fallback": "denim",
+            "link": "/collections/pants",
+            "position": 50
+          }
+        },
+        "all": {
+          "type": "category",
+          "settings": {
+            "label": "The wardrobe",
+            "fallback": "henley-white-alt",
+            "link": "/collections/all",
+            "position": 70
+          }
+        }
+      },
+      "block_order": [
+        "henleys",
+        "mesh",
+        "pants",
+        "all"
+      ]
+    },
+    "bestsellers": {
+      "type": "best-sellers-pair",
       "settings": {
-        "anchor": "signature",
-        "eyebrow": "A ZIPSTERS SIGNATURE",
-        "heading": "The Henley collection.",
-        "copy": "The starting point of a good wardrobe.",
-        "limit": 4,
-        "label": "EXPLORE HENLEYS",
-        "link": "/collections/henleys"
+        "heading": "Best Sellers",
+        "link": "/collections/henleys?sort_by=best-selling"
       },
       "blocks": {
         "black": {
           "type": "piece",
           "settings": {
-            "title": "Textured Half Sleeve Henley",
-            "color": "Black",
-            "fallback": "henley-black",
-            "fallback_alt": "henley-black-alt",
-            "link": "/products/textured-half-sleeve-henley-black"
+            "fallback": "henley-grey",
+            "title": "Textured Half Sleeve Henley — Dark Grey",
+            "link": "/products/textured-half-sleeve-henley-dark-grey",
+            "position": 14
           }
         },
         "white": {
           "type": "piece",
           "settings": {
-            "title": "Textured Half Sleeve Henley",
-            "color": "White",
-            "fallback": "henley-white",
-            "fallback_alt": "henley-white-alt",
-            "link": "/products/textured-half-sleeve-henley-white"
-          }
-        },
-        "brown": {
-          "type": "piece",
-          "settings": {
-            "title": "Textured Half Sleeve Henley",
-            "color": "Brown",
-            "fallback": "henley-brown",
-            "fallback_alt": "look-brown",
-            "link": "/products/textured-half-sleeve-henley-brown"
-          }
-        },
-        "grey": {
-          "type": "piece",
-          "settings": {
-            "title": "Textured Half Sleeve Henley",
-            "color": "Dark Grey",
-            "fallback": "henley-grey",
-            "fallback_alt": "henley-grey-alt",
-            "link": "/products/textured-half-sleeve-henley-dark-grey"
+            "fallback": "look-studio",
+            "title": "Textured Half Sleeve Henley — Black",
+            "link": "/products/textured-half-sleeve-henley-black",
+            "position": 0
           }
         }
       },
       "block_order": [
         "black",
-        "white",
-        "brown",
-        "grey"
+        "white"
       ]
-    },
-    "story": {
-      "type": "editorial-story",
-      "settings": {
-        "eyebrow": "A FAMILIAR FEELING",
-        "heading": "The everyday\nuniform.",
-        "copy": "Some pieces just feel like you. Worn with denim, paired with pleats, or taken out for a slow afternoon. This is the Henley, your way.",
-        "link": "/collections/henleys"
-      }
-    },
-    "wardrobe": {
-      "type": "featured-collection",
-      "settings": {
-        "anchor": "wardrobe",
-        "eyebrow": "THE REST OF THE WARDROBE",
-        "heading": "Beyond the Henley.",
-        "copy": "A considered rotation. A character of its own.",
-        "limit": 4,
-        "label": "SHOP THE WARDROBE",
-        "link": "/collections/all"
-      },
-      "blocks": {
-        "long": {
-          "type": "piece",
-          "settings": {
-            "title": "Textured Long Sleeve Henley",
-            "color": "White",
-            "fallback": "henley-long-white",
-            "fallback_alt": "story-garden",
-            "link": "/products/textured-long-sleeve-henley-white"
-          }
-        },
-        "mesh": {
-          "type": "piece",
-          "settings": {
-            "title": "Mesh Tee",
-            "color": "Black",
-            "fallback": "mesh-black",
-            "fallback_alt": "mesh-black-alt",
-            "link": "/products/mesh-tee-black"
-          }
-        },
-        "denim": {
-          "type": "piece",
-          "settings": {
-            "title": "Raw Denim Pants",
-            "color": "Denim",
-            "fallback": "denim",
-            "fallback_alt": "denim-styled",
-            "link": "/products/raw-denim-pants"
-          }
-        },
-        "pants": {
-          "type": "piece",
-          "settings": {
-            "title": "Pleated Suit Pants",
-            "color": "Black",
-            "fallback": "pleated-pants",
-            "fallback_alt": "pleated-pants-alt",
-            "link": "/products/pleated-suit-pants-black"
-          }
-        }
-      },
-      "block_order": [
-        "long",
-        "mesh",
-        "denim",
-        "pants"
-      ]
-    },
-    "campaign": {
-      "type": "campaign",
-      "settings": {
-        "eyebrow": "OFF THE CLOCK",
-        "heading": "Nothing on the agenda.\nEverything in its place.",
-        "label": "EXPLORE THE COLLECTION",
-        "link": "/collections/all"
-      }
-    },
-    "lookbook": {
-      "type": "lookbook",
-      "settings": {
-        "heading": "A way of wearing it.",
-        "copy": "Three looks. One point of view. The Henley, from the city to a change of scene."
-      },
-      "blocks": {
-        "architecture": {
-          "type": "look",
-          "settings": {
-            "fallback": "henley-white-alt",
-            "caption": "The Henley & the pleats.",
-            "note": "CITY / HENLEY + PLEATS",
-            "link": "/products/textured-half-sleeve-henley-white"
-          }
-        },
-        "cafe": {
-          "type": "look",
-          "settings": {
-            "fallback": "look-cafe",
-            "caption": "An afternoon, well spent.",
-            "note": "CAFÉ / AFTER HOURS",
-            "link": "/collections/henleys"
-          }
-        },
-        "riverside": {
-          "type": "look",
-          "settings": {
-            "fallback": "look-riverside",
-            "caption": "A change of scene.",
-            "note": "AWAY / OFF DUTY",
-            "link": "/products/textured-half-sleeve-henley-dark-grey"
-          }
-        }
-      },
-      "block_order": [
-        "architecture",
-        "cafe",
-        "riverside"
-      ]
-    },
-    "details": {
-      "type": "details-story",
-      "settings": {
-        "heading": "Character,\nup close.",
-        "copy": "The button placket. The open neckline. The texture in the light. A closer look at the Zipsters Henley.",
-        "link": "/collections/henleys"
-      }
     },
     "social": {
       "type": "social-editorial",
       "settings": {
-        "heading": "Worn your way."
+        "heading": "Get the Look"
       },
       "blocks": {
         "one": {
@@ -229,14 +166,6 @@
             "link": "https://www.instagram.com/_ubaid_here_/p/DV9G6JsCOlT/"
           }
         },
-        "four": {
-          "type": "photo",
-          "settings": {
-            "fallback": "mesh-white",
-            "alt": "Zipsters white mesh T-shirt on the street",
-            "link": "https://www.instagram.com/zipstersofficial/p/Da-jwBJNtvF/"
-          }
-        },
         "five": {
           "type": "photo",
           "settings": {
@@ -250,19 +179,63 @@
         "one",
         "two",
         "three",
-        "four",
         "five"
       ]
+    },
+    "motion": {
+      "type": "reels",
+      "settings": {
+        "heading": "AFTER HOURS, IN HENLEYS.",
+        "label": "SHOP HENLEYS",
+        "link": "/collections/henleys",
+        "subheading": "A sharper take on dressing down."
+      },
+      "blocks": {
+        "brown": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-brown",
+            "alt": "Brown textured half sleeve Henley, styled with denim",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DaudVaYtcpS/",
+            "desktop_fallback": "reel-brown-desktop"
+          }
+        },
+        "white": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-white",
+            "alt": "White textured long sleeve Henley in motion",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DVi9uSjjEKW/",
+            "desktop_fallback": "reel-white-desktop"
+          }
+        },
+        "black": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-navy",
+            "alt": "Zipsters Henley styled with brown trousers against a concrete wall",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DNknE9HtSiX/",
+            "desktop_fallback": "reel-navy-desktop"
+          }
+        }
+      },
+      "block_order": [
+        "brown",
+        "white",
+        "black"
+      ]
+    },
+    "ending": {
+      "type": "ending-strip",
+      "settings": {}
     }
   },
   "order": [
     "hero",
-    "signature",
-    "story",
-    "wardrobe",
-    "campaign",
-    "lookbook",
-    "details",
-    "social"
+    "categories",
+    "bestsellers",
+    "social",
+    "motion",
+    "ending"
   ]
 }

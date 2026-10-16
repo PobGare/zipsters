@@ -1,0 +1,8 @@
+<section class="best-sellers-pair" id="best-sellers" aria-labelledby="best-title-{{ section.id }}">
+  <div class="best-sellers-media">{% for block in section.blocks limit: 2 %}{% assign chosen = block.settings.product %}{% assign photo = block.settings.image | default: chosen.featured_image %}{% assign link = chosen.url | default: block.settings.link %}{% assign title = chosen.title | default: block.settings.title %}
+  <a href="{{ section.settings.collection.url | default: section.settings.link | default: link }}" aria-label="{{ title | escape }}" style="--image-position:{{ block.settings.position }}%" {{ block.shopify_attributes }}>{% render 'image', image: photo, fallback: block.settings.fallback, alt: title, sizes: '(max-width: 767px) 100vw, 50vw' %}</a>{% endfor %}</div>
+  <h2 id="best-title-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+</section>
+{% schema %}
+{"name":"Best Sellers pair","max_blocks":2,"settings":[{"type":"collection","id":"collection","label":"Best Sellers destination"},{"type":"url","id":"link","label":"Fallback destination"},{"type":"text","id":"heading","label":"Heading","default":"Best Sellers"}],"blocks":[{"type":"piece","name":"Product image","settings":[{"type":"product","id":"product","label":"Product"},{"type":"image_picker","id":"image","label":"Photograph override"},{"type":"text","id":"fallback","label":"Bundled photo filename"},{"type":"text","id":"title","label":"Fallback accessible product name"},{"type":"url","id":"link","label":"Fallback product destination"},{"type":"range","id":"position","label":"Vertical crop","min":0,"max":100,"step":1,"default":50,"unit":"%"}]}],"presets":[{"name":"Best Sellers pair"}]}
+{% endschema %}

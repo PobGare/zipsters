@@ -268,7 +268,11 @@
       "sourceProfile": "https://www.instagram.com/zipstersofficial/",
       "sourcePost": null,
       "acquisition": "Downloaded from Instagram media observed while inspecting the official Zipsters profile and its collaborative posts.",
-      "renditions": [],
+      "renditions": [
+        "look-studio-480.jpg",
+        "look-studio-960.jpg",
+        "look-studio-1200.jpg"
+      ],
       "processing": "Resized JPEG renditions only; original retained unchanged. CSS crops control presentation."
     },
     {
@@ -364,6 +368,86 @@
         "henley-macro-480.jpg",
         "henley-macro-960.jpg"
       ]
+    },
+    {
+      "name": "hero-mesh",
+      "original": "assets/originals/713725284.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": null,
+      "acquisition": "Retained original from the existing official Zipsters Instagram asset research and contact sheet.",
+      "renditions": [
+        "hero-mesh-480.jpg",
+        "hero-mesh-960.jpg",
+        "hero-mesh-1200.jpg",
+        "hero-mesh-2400.jpg"
+      ],
+      "processing": "JPEG resizing only, quality 88. No upscaling, generative editing or replacement imagery. Mobile mesh slide uses existing mesh-black photograph."
+    },
+    {
+      "name": "hero-wardrobe",
+      "original": "assets/originals/wardrobe-urban.jpg",
+      "sourceProfile": "https://www.instagram.com/zipstersofficial/",
+      "sourcePost": "https://www.instagram.com/fahad.farhat/p/DeXMFgTCO4-/",
+      "acquisition": "Official Zipsters collaborative carousel, third photograph. Original retrieved through browser pageAssets on 2026-10-14.",
+      "renditions": [
+        "hero-wardrobe-480.jpg",
+        "hero-wardrobe-960.jpg",
+        "hero-wardrobe-1200.jpg",
+        "hero-wardrobe-2400.jpg"
+      ],
+      "processing": "3072 x 4096 original; downscaled JPEG renditions at 480, 960, 1200 and 2400px. No upscaling or retouching; responsive CSS crops."
+    }
+  ],
+  "videos": [
+    {
+      "name": "reel-brown",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/reel/DaudVaYtcpS/",
+      "original": "assets/originals/reel-brown.mp4",
+      "processing": "Official 1080 x 1920, 30 fps source. Desktop WebM: first 12 seconds remuxed without video recompression or resizing (packet hashes verified). Desktop H.264 fallback: native dimensions and frame rate, CRF 18, faststart, no audio. Existing mobile H.264 preview: 1080 x 1920, 24 fps, CRF 26, 12 seconds, muted. CSS cover crop; no blur filter or transform.",
+      "renditions": [
+        "reel-brown.mp4",
+        "reel-brown-poster.jpg",
+        "reel-brown-desktop.webm",
+        "reel-brown-desktop.mp4"
+      ],
+      "sourceAudit": "Official Instagram rendered video and observed highest-quality rendition rechecked 2026-10-15; 1080 x 1920 is the highest available source observed."
+    },
+    {
+      "name": "reel-white",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/reel/DVi9uSjjEKW/",
+      "original": "assets/originals/reel-white.mp4",
+      "processing": "Official 1080 x 1920, 30 fps source. Desktop WebM: first 12 seconds remuxed without video recompression or resizing (packet hashes verified). Desktop H.264 fallback: native dimensions and frame rate, CRF 18, faststart, no audio. Existing mobile H.264 preview: 1080 x 1920, 24 fps, CRF 26, 12 seconds, muted. CSS cover crop; no blur filter or transform.",
+      "renditions": [
+        "reel-white.mp4",
+        "reel-white-poster.jpg",
+        "reel-white-desktop.webm",
+        "reel-white-desktop.mp4"
+      ],
+      "sourceAudit": "Official Instagram rendered video and observed highest-quality rendition rechecked 2026-10-15; 1080 x 1920 is the highest available source observed."
+    },
+    {
+      "name": "reel-black",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/reel/DZCXY5jtu28/",
+      "original": "assets/originals/reel-black.mp4",
+      "processing": "Removed letterbox with centered 608px square crop; silent H.264 preview.",
+      "renditions": [
+        "reel-black.mp4",
+        "reel-black-poster.jpg"
+      ],
+      "note": "Retained earlier source; not selected in the current homepage rotation."
+    },
+    {
+      "name": "reel-navy",
+      "sourcePost": "https://www.instagram.com/zipstersofficial/reel/DNknE9HtSiX/",
+      "original": "assets/originals/reel-navy.mp4",
+      "processing": "Official 1080 x 1920, 30 fps source. Desktop WebM: first 12 seconds remuxed without video recompression or resizing (packet hashes verified). Desktop H.264 fallback: native dimensions and frame rate, CRF 18, faststart, no audio. Existing mobile H.264 preview: 1080 x 1920, 24 fps, CRF 26, 12 seconds, muted. CSS cover crop; no blur filter or transform.",
+      "renditions": [
+        "reel-navy.mp4",
+        "reel-navy-poster.jpg",
+        "reel-navy-desktop.webm",
+        "reel-navy-desktop.mp4"
+      ],
+      "sourceAudit": "Official Instagram rendered video and observed highest-quality rendition rechecked 2026-10-15; 1080 x 1920 is the highest available source observed."
     }
   ]
 }

@@ -1,0 +1,9 @@
+<div data-predictive-results>
+{% if predictive_search.performed %}{% for product in predictive_search.resources.products %}
+  <a class="search-result" href="{{ product.url }}" data-search-result role="option" aria-selected="false" tabindex="-1">
+    {% if product.featured_image != blank %}{{ product.featured_image | image_url: width: 160 | image_tag: width: 60, height: 80, loading: 'lazy', alt: product.title }}{% endif %}
+    <span><span class="search-result-title">{{ product.title | escape }}</span>{% if product.metafields.custom.color.value != blank %}<small>{{ product.metafields.custom.color.value | escape }}</small>{% endif %}{% if product.price != blank %}<small>{{ product.price | money }}</small>{% endif %}</span>
+  </a>
+{% endfor %}{% endif %}
+</div>
+{% schema %}{"name":"Predictive search","settings":[]}{% endschema %}

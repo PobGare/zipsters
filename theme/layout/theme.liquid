@@ -5,7 +5,9 @@
 {{ 'theme.css' | asset_url | stylesheet_tag }}
 {{ 'refinements.css' | asset_url | stylesheet_tag }}
 {{ 'final-polish.css' | asset_url | stylesheet_tag }}
+{{ 'commerce.css' | asset_url | stylesheet_tag }}
 <style>:root{--paper:{{ settings.background | default: '#f7f6f2' }};--ink:{{ settings.foreground | default: '#23251f' }};--olive:{{ settings.accent | default: '#424938' }};}</style>
 <script>window.zipsters={root:{{ routes.root_url | json }},currency:{{ cart.currency.iso_code | default: 'PKR' | json }},locale:{{ request.locale.iso_code | default: 'en-PK' | json }},preview:false};</script>
-<script src="{{ 'theme.js' | asset_url }}" defer></script><script src="{{ 'refinements.js' | asset_url }}" defer></script></head>
+<script src="{{ 'theme.js' | asset_url }}" defer></script><script src="{{ 'refinements.js' | asset_url }}" defer></script>
+<script src="{{ 'predictive-search.js' | asset_url }}" defer></script></head>
 <body class="template-{{ template.name }}"><a class="skip-link" href="#main-content">Skip to content</a>{% section 'header' %}<main id="main-content">{{ content_for_layout }}</main>{% section 'footer' %}{% render 'cart-drawer', routes: routes %}</body></html>

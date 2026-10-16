@@ -2,8 +2,8 @@
   <div class="header-inner">
     <nav class="desktop-nav" aria-label="Main navigation">
       <a class="nav-link" href="{{ routes.root_url }}collections/henleys">Henleys</a>
-      <button class="nav-link" data-mega-toggle aria-expanded="false" aria-controls="shop-menu">Shop <span class="tiny-plus">+</span></button>
-      <a class="nav-link" href="{{ routes.root_url }}#lookbook">The Edit</a>
+      <button class="nav-link" data-open="mobile-menu" aria-haspopup="dialog" aria-controls="mobile-menu">Shop</button>
+      <a class="nav-link" href="{{ routes.root_url }}#lookbook">Get the Look</a>
     </nav>
     <button class="icon-button mobile-menu-button" aria-label="Open menu" data-open="mobile-menu">{% render 'icon', name: 'menu' %}</button>
     <a class="wordmark" href="{{ routes.root_url }}" aria-label="Zipsters home">{% if section.settings.logo != blank %}{{ section.settings.logo | image_url: width: 400 | image_tag: width: 180, alt: shop.name }}{% else %}ZIPSTERS{% endif %}</a>
@@ -13,28 +13,23 @@
       <button class="bag-button" aria-label="Open shopping bag" data-open="cart-drawer">{% render 'icon', name: 'bag' %}<span class="bag-label">Bag</span> <span data-cart-count>({{ cart.item_count | default: 0 }})</span></button>
     </div>
   </div>
-  <div class="mega-menu" id="shop-menu" hidden>
-    <div class="mega-links"><span class="eyebrow">The Zipsters wardrobe</span>
-      {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% else %}
-      <a href="{{ routes.root_url }}collections/henleys">Henleys</a><a href="{{ routes.root_url }}collections/t-shirts">T-shirts & mesh</a><a href="{{ routes.root_url }}collections/pants">Pants & denim</a><a href="{{ routes.root_url }}collections/all">Explore everything</a>{% endif %}
-    </div>
-    <a class="mega-image" href="{{ routes.root_url }}collections/henleys">{% render 'image', image: section.settings.menu_image, fallback: 'henley-brown-alt', alt: 'Zipsters brown Henley in a café', sizes: '28vw' %}<span>The signature Henley ↗</span></a>
-    <a class="mega-image" href="{{ routes.root_url }}#lookbook">{% render 'image', fallback: 'henley-white-alt', alt: 'Zipsters white Henley with black pleated trousers', sizes: '28vw' %}<span>A way of wearing it ↗</span></a>
-  </div>
 </header>
 <dialog id="mobile-menu" class="drawer menu-drawer" aria-label="Navigation">
   <div class="drawer-top"><span class="wordmark">ZIPSTERS</span><button class="icon-button" data-close aria-label="Close menu">{% render 'icon', name: 'close' %}</button></div>
-  <div class="mobile-menu-content"><span class="eyebrow">The everyday wardrobe</span><a href="{{ routes.root_url }}collections/henleys">Henleys <span>↗</span></a>
-  <details><summary>Shop <span>+</span></summary><div>{% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% else %}<a href="{{ routes.root_url }}collections/all">Shop all</a><a href="{{ routes.root_url }}collections/t-shirts">T-shirts & mesh</a><a href="{{ routes.root_url }}collections/pants">Pants & denim</a>{% endif %}</div></details>
-  <a href="{{ routes.root_url }}#lookbook">The Edit <span>↗</span></a><a href="{{ routes.root_url }}#story">Our point of view <span>↗</span></a>
-  <button class="mobile-search-link" data-open="search-dialog">Search <span>↗</span></button>
-  <a class="mobile-menu-photo" href="{{ routes.root_url }}collections/henleys">{% render 'image', fallback: 'henley-brown-alt', alt: 'Brown Henley campaign', sizes: '90vw' %}<span>Meet your everyday.</span></a></div>
+  <nav class="mobile-menu-content" aria-label="Shop categories">
+    {% render 'predictive-search-form', context: 'drawer', routes: routes %}
+    {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% else %}
+    <a href="{{ routes.root_url }}collections/henleys">Henleys</a>
+    <a href="{{ routes.root_url }}collections/t-shirts">T-shirts & mesh</a>
+    <a href="{{ routes.root_url }}collections/pants">Pants & denim</a>
+    <a href="{{ routes.root_url }}collections/all">The wardrobe</a>{% endif %}
+  </nav>
   <a class="eyebrow menu-social" href="{{ settings.instagram_url }}">@zipstersofficial ↗</a>
 </dialog>
-<dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="drawer-top"><span class="eyebrow" id="search-title">Find your everyday</span><button class="icon-button" data-close aria-label="Close search">{% render 'icon', name: 'close' %}</button></div>
-  <form action="{{ routes.search_url }}" method="get" role="search"><label class="visually-hidden" for="search-input">Search products</label><input id="search-input" name="q" type="search" placeholder="Try “Henley”" required><input type="hidden" name="type" value="product"><button class="icon-button" aria-label="Submit search">{% render 'icon', name: 'arrow' %}</button></form>
+<dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="drawer-top"><span class="eyebrow" id="search-title">Search</span><button class="icon-button" data-close aria-label="Close search">{% render 'icon', name: 'close' %}</button></div>
+  {% render 'predictive-search-form', context: 'main', routes: routes %}
   <div class="search-suggestions"><span class="eyebrow">Explore</span><a href="{{ routes.root_url }}collections/henleys">The Henleys</a><a href="{{ routes.root_url }}collections/pants">Pants & denim</a></div>
 </dialog>
 {% schema %}
-{"name":"Header","settings":[{"type":"image_picker","id":"logo","label":"Logo"},{"type":"link_list","id":"menu","label":"Shop menu"},{"type":"image_picker","id":"menu_image","label":"Menu campaign image"}]}
+{"name":"Header","settings":[{"type":"image_picker","id":"logo","label":"Logo"},{"type":"link_list","id":"menu","label":"Shop menu"}]}
 {% endschema %}
