@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {},
+      "blocks": {
+        "henleys": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-cafe",
+            "heading": "Henleys",
+            "link": "/collections/henleys",
+            "alignment": "right",
+            "desktop_position": 37,
+            "mobile_fallback": "hero-cafe",
+            "mobile_x": 43,
+            "mobile_position": 48,
+            "label": "SHOP NOW",
+            "alt": "White Zipsters Henley worn at a café"
+          }
+        },
+        "mesh": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-mesh",
+            "heading": "T-shirts & mesh",
+            "link": "/collections/t-shirts",
+            "alignment": "left",
+            "desktop_position": 53,
+            "mobile_fallback": "mesh-black",
+            "mobile_x": 50,
+            "mobile_position": 40,
+            "label": "SHOP NOW",
+            "alt": "Zipsters mesh tee styled with the wider wardrobe"
+          }
+        },
+        "pants": {
+          "type": "slide",
+          "settings": {
+            "fallback": "hero-wardrobe",
+            "heading": "The wardrobe",
+            "link": "/collections/all",
+            "alignment": "right",
+            "desktop_position": 60,
+            "mobile_fallback": "hero-wardrobe",
+            "mobile_x": 50,
+            "mobile_position": 70,
+            "label": "SHOP NOW",
+            "alt": "Grey Zipsters Henley and black wide-leg trousers in an urban campaign look",
+            "tone": "light"
+          }
+        }
+      },
+      "block_order": [
+        "henleys",
+        "mesh",
+        "pants"
+      ]
+    },
+    "categories": {
+      "type": "product-categories",
+      "settings": {},
+      "blocks": {
+        "henleys": {
+          "type": "category",
+          "settings": {
+            "label": "Henleys",
+            "fallback": "henley-brown-alt",
+            "link": "/collections/henleys",
+            "position": 40
+          }
+        },
+        "mesh": {
+          "type": "category",
+          "settings": {
+            "label": "T-shirts & mesh",
+            "fallback": "mesh-black-alt",
+            "link": "/collections/t-shirts",
+            "position": 35
+          }
+        },
+        "pants": {
+          "type": "category",
+          "settings": {
+            "label": "Pants & denim",
+            "fallback": "denim",
+            "link": "/collections/pants",
+            "position": 50
+          }
+        },
+        "all": {
+          "type": "category",
+          "settings": {
+            "label": "The wardrobe",
+            "fallback": "henley-white-alt",
+            "link": "/collections/all",
+            "position": 70
+          }
+        }
+      },
+      "block_order": [
+        "henleys",
+        "mesh",
+        "pants",
+        "all"
+      ]
+    },
+    "bestsellers": {
+      "type": "best-sellers-pair",
+      "settings": {
+        "heading": "Best Sellers",
+        "link": "/collections/henleys?sort_by=best-selling"
+      },
+      "blocks": {
+        "black": {
+          "type": "piece",
+          "settings": {
+            "fallback": "henley-grey",
+            "title": "Textured Half Sleeve Henley — Dark Grey",
+            "link": "/products/textured-half-sleeve-henley-dark-grey",
+            "position": 14
+          }
+        },
+        "white": {
+          "type": "piece",
+          "settings": {
+            "fallback": "look-studio",
+            "title": "Textured Half Sleeve Henley — Black",
+            "link": "/products/textured-half-sleeve-henley-black",
+            "position": 0
+          }
+        }
+      },
+      "block_order": [
+        "black",
+        "white"
+      ]
+    },
+    "social": {
+      "type": "social-editorial",
+      "settings": {
+        "heading": "Get the Look"
+      },
+      "blocks": {
+        "one": {
+          "type": "photo",
+          "settings": {
+            "fallback": "look-brown",
+            "alt": "Brown Zipsters Henley styled with light trousers",
+            "link": "https://www.instagram.com/ahtexhammm/p/DdQOmNnjPLp/"
+          }
+        },
+        "two": {
+          "type": "photo",
+          "settings": {
+            "fallback": "henley-grey-alt",
+            "alt": "Dark grey Zipsters Henley styled with black trousers",
+            "link": "https://www.instagram.com/zipstersofficial/p/DcLZCHgjYd-/"
+          }
+        },
+        "three": {
+          "type": "photo",
+          "settings": {
+            "fallback": "look-recline",
+            "alt": "Brown Henley with blue denim, worn outdoors",
+            "link": "https://www.instagram.com/_ubaid_here_/p/DV9G6JsCOlT/"
+          }
+        },
+        "five": {
+          "type": "photo",
+          "settings": {
+            "fallback": "henley-black-alt",
+            "alt": "Black Zipsters Henley in a stone courtyard",
+            "link": "https://www.instagram.com/zipstersofficial/p/Ddv0fb2jTFx/"
+          }
+        }
+      },
+      "block_order": [
+        "one",
+        "two",
+        "three",
+        "five"
+      ]
+    },
+    "motion": {
+      "type": "reels",
+      "settings": {
+        "heading": "AFTER HOURS, IN HENLEYS.",
+        "label": "SHOP HENLEYS",
+        "link": "/collections/henleys",
+        "subheading": "A sharper take on dressing down."
+      },
+      "blocks": {
+        "brown": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-brown",
+            "alt": "Brown textured half sleeve Henley, styled with denim",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DaudVaYtcpS/",
+            "desktop_fallback": "reel-brown-desktop"
+          }
+        },
+        "white": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-white",
+            "alt": "White textured long sleeve Henley in motion",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DVi9uSjjEKW/",
+            "desktop_fallback": "reel-white-desktop"
+          }
+        },
+        "black": {
+          "type": "reel",
+          "settings": {
+            "fallback": "reel-navy",
+            "alt": "Zipsters Henley styled with brown trousers against a concrete wall",
+            "link": "https://www.instagram.com/zipstersofficial/reel/DNknE9HtSiX/",
+            "desktop_fallback": "reel-navy-desktop"
+          }
+        }
+      },
+      "block_order": [
+        "brown",
+        "white",
+        "black"
+      ]
+    },
+    "ending": {
+      "type": "ending-strip",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "bestsellers",
+    "social",
+    "motion",
+    "ending"
+  ]
+}

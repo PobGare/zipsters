@@ -1,0 +1,32 @@
+{
+  "textured-half-sleeve-henley-black": {
+    "description": "<p>Black textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-white": {
+    "description": "<p>White textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-brown": {
+    "description": "<p>Brown textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-half-sleeve-henley-dark-grey": {
+    "description": "<p>Dark grey textured Henley with short sleeves and a button placket.</p>"
+  },
+  "textured-long-sleeve-henley-white": {
+    "description": "<p>White textured Henley with long sleeves and a button placket.</p>",
+    "extraImages": [
+      "hero-cafe"
+    ]
+  },
+  "mesh-tee-black": {
+    "description": "<p>Black mesh tee with a contrasting 86 graphic and V neckline.</p>"
+  },
+  "raw-denim-pants": {
+    "description": "<p>Blue raw denim pants with contrast stitching, front pockets and belt loops.</p>"
+  },
+  "pleated-suit-pants-black": {
+    "description": "<p>Black suit pants with front pleats, belt loops and side pockets.</p>",
+    "extraImages": [
+      "pleated-pants-third"
+    ]
+  }
+}

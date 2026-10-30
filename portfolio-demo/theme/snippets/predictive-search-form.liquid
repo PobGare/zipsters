@@ -1,0 +1,11 @@
+<div class="predictive-search predictive-search--{{ context }}" data-predictive-search>
+  <form action="{{ routes.search_url }}" method="get" role="search">
+    {% if context == 'drawer' %}{% render 'icon', name: 'search' %}{% endif %}
+    <label class="visually-hidden" for="{{ context }}-search-input">{% if context == 'drawer' %}Search in Shop{% else %}Search products{% endif %}</label>
+    <input id="{{ context }}-search-input" name="q" type="search" placeholder="{% if context == 'drawer' %}Search products{% else %}Try “Henley”{% endif %}" autocomplete="off" autocorrect="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="{{ context }}-search-results" required>
+    <input type="hidden" name="type" value="product">
+    <button class="icon-button" aria-label="{% if context == 'drawer' %}Submit Shop search{% else %}Submit search{% endif %}">{% render 'icon', name: 'arrow' %}</button>
+  </form>
+  <p class="search-status" data-search-status role="status" aria-live="polite"></p>
+  <div id="{{ context }}-search-results" class="predictive-results" role="listbox" aria-label="Product suggestions" data-search-results hidden></div>
+</div>

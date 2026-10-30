@@ -1,0 +1,16 @@
+{% liquid
+ assign item = product
+ assign name = item.title | default: block.settings.title
+ assign url = item.url | default: block.settings.link
+ assign color = item.metafields.custom.color.value | default: block.settings.color
+ assign photo = item.featured_image | default: block.settings.image
+ assign alternate = item.images[1] | default: block.settings.image_alt
+%}
+<article class="product-card" {{ block.shopify_attributes }}>
+  <a class="product-image" href="{{ url }}" aria-label="{{ name | escape }}{% if color != blank %}, {{ color | escape }}{% endif %}">
+    {% render 'image', image: photo, fallback: block.settings.fallback, alt: name, sizes: '(max-width: 767px) 50vw, 25vw' %}
+    {% if alternate != blank or block.settings.fallback_alt != blank %}{% render 'image', image: alternate, fallback: block.settings.fallback_alt, alt: name, class: 'product-alternate', sizes: '(max-width: 767px) 50vw, 25vw' %}{% endif %}
+    <span class="product-view">View product <span>↗</span></span>
+  </a>
+  <div class="product-info"><div><h3><a href="{{ url }}">{{ name }}</a></h3><span class="product-color">{{ color }}</span></div>{% if item.price != blank %}<span class="product-price">{{ item.price | money }}</span>{% else %}<a href="{{ url }}" class="card-arrow" aria-label="View {{ name | escape }}">↗</a>{% endif %}</div>
+</article>

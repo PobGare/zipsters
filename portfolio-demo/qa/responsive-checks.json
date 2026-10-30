@@ -1,0 +1,146 @@
+[
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/",
+    "brokenImages": [],
+    "heading": "Henleys",
+    "scrollWidth": 305
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/collections/all",
+    "brokenImages": [],
+    "heading": "The wardrobe.",
+    "scrollWidth": 305
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/products/textured-half-sleeve-henley-black",
+    "brokenImages": [],
+    "heading": "Textured Half Sleeve Henley",
+    "scrollWidth": 305
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/search?q=zzzz",
+    "brokenImages": [],
+    "heading": "Search",
+    "scrollWidth": 305
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/cart",
+    "brokenImages": [],
+    "heading": "Your bag",
+    "scrollWidth": 305
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "route": "/checkout",
+    "brokenImages": [],
+    "heading": "A little everyday character.",
+    "scrollWidth": 305
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "brokenImages": [],
+    "heading": "Henleys",
+    "scrollWidth": 753
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/collections/all",
+    "brokenImages": [],
+    "heading": "The wardrobe.",
+    "scrollWidth": 753
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/products/textured-half-sleeve-henley-black",
+    "brokenImages": [],
+    "heading": "Textured Half Sleeve Henley",
+    "scrollWidth": 753
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/search?q=zzzz",
+    "brokenImages": [],
+    "heading": "Search",
+    "scrollWidth": 753
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/cart",
+    "brokenImages": [],
+    "heading": "Your bag",
+    "scrollWidth": 753
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/checkout",
+    "brokenImages": [],
+    "heading": "A little everyday character.",
+    "scrollWidth": 753
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "brokenImages": [],
+    "heading": "Henleys",
+    "scrollWidth": 1425
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/collections/all",
+    "brokenImages": [],
+    "heading": "The wardrobe.",
+    "scrollWidth": 1425
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/products/textured-half-sleeve-henley-black",
+    "brokenImages": [],
+    "heading": "Textured Half Sleeve Henley",
+    "scrollWidth": 1425
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/search?q=zzzz",
+    "brokenImages": [],
+    "heading": "Search",
+    "scrollWidth": 1425
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/cart",
+    "brokenImages": [],
+    "heading": "Your bag",
+    "scrollWidth": 1425
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/checkout",
+    "brokenImages": [],
+    "heading": "A little everyday character.",
+    "scrollWidth": 1425
+  }
+]

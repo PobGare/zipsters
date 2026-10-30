@@ -1,0 +1,17 @@
+.demo-copy,.demo-price-label{font:400 12px/1.65 var(--sans);color:#62665b}
+.demo-price-label{font-size:10px;letter-spacing:.12em;margin:18px 0 4px}
+.demo-product-quantity{display:flex;align-items:center;gap:20px;font-size:12px;margin:18px 0}
+.demo-product-quantity input{border:1px solid #aaa99e;background:transparent;padding:12px;width:78px;min-height:44px}
+.demo-bag-link{display:block;text-align:center;font-size:11px;letter-spacing:.08em;text-decoration:underline;margin-top:20px}
+[data-cart-content]>.demo-copy{padding:0 28px}
+.demo-size-table{border-collapse:collapse;width:100%;margin:24px 0}.demo-size-table th,.demo-size-table td{text-align:left;border-bottom:1px solid #cbcbbf;padding:12px}.demo-size-table caption{text-align:left;margin-bottom:12px}
+.demo-checkout .page-content{max-width:780px}.demo-checkout h1{font-size:clamp(36px,5vw,64px)}
+.demo-checkout .cart-summary,.template-cart .cart-summary{position:static;padding:28px 0}
+.demo-order-lines{margin-top:32px}.demo-confirmation{padding:40px 0}.demo-confirmation h2{font-size:36px}.demo-confirmation .button{margin-top:28px}
+.demo-search-form{margin:24px 0;max-width:650px}.demo-search-form label{display:block;font-size:12px;margin-bottom:8px}.demo-search-form>div{display:flex;gap:12px}.demo-search-form input{min-width:0;flex:1;border:1px solid #aaa99e;background:transparent;padding:12px}
+.filter-panel input[type=number]{max-width:100%;min-height:44px}.filter-panel fieldset label{min-height:36px}
+.cart-line small{font-size:11px;color:#666}.quantity button:disabled{opacity:.35;cursor:not-allowed}
+.demo-motion-toggle{position:absolute;right:22px;bottom:20px;z-index:4;color:white;background:#24292099;padding:10px 14px;font-size:10px;letter-spacing:.05em;min-height:44px}
+@media(max-width:767px){.demo-search-form>div{flex-direction:column}.demo-product-quantity{margin:14px 0}.demo-motion-toggle{right:10px;bottom:8px;font-size:9px;padding:8px}.demo-checkout h1{font-size:36px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+.demo-footer-link{display:block;text-align:left;font:inherit;font-size:11px;margin-bottom:14px;text-decoration:underline;text-underline-offset:3px;min-height:32px}

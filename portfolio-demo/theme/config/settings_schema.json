@@ -1,0 +1,39 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Zipsters — In Character",
+    "theme_version": "1.0.0",
+    "theme_author": "Zipsters",
+    "theme_documentation_url": "https://shopify.dev/docs/storefronts/themes",
+    "theme_support_url": "https://www.instagram.com/zipstersofficial/"
+  },
+  {
+    "name": "Brand",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Page background",
+        "default": "#f7f6f2"
+      },
+      {
+        "type": "color",
+        "id": "foreground",
+        "label": "Text",
+        "default": "#23251f"
+      },
+      {
+        "type": "color",
+        "id": "accent",
+        "label": "Accent",
+        "default": "#424938"
+      },
+      {
+        "type": "url",
+        "id": "instagram_url",
+        "label": "Instagram",
+        "default": "https://www.instagram.com/zipstersofficial/"
+      }
+    ]
+  }
+]

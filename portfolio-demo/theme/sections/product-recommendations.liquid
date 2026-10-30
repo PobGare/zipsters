@@ -1,0 +1,18 @@
+{% liquid
+ assign related = section.settings.products
+ if related == blank and recommendations.performed
+   assign related = recommendations.products
+ endif
+ if related == blank and section.settings.collection != blank
+   assign related = section.settings.collection.products
+ endif
+ if related == blank
+   assign related = product.collections.first.products
+ endif
+ assign rendered = 0
+%}
+{% capture related_cards %}{% for related_product in related %}{% if related_product.id != product.id and rendered < 4 %}{% render 'product-card', product: related_product %}{% assign rendered = rendered | plus: 1 %}{% endif %}{% endfor %}{% endcapture %}
+<div data-product-recommendations {% unless recommendations.performed or section.settings.products != blank %}data-recommendations-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=5&intent=related"{% endunless %}>
+{% if rendered > 0 %}<section class="recommendations section-space"><div class="section-heading"><div><h2>{{ section.settings.heading | default: 'You may also like' }}</h2></div></div><div class="product-grid">{{ related_cards }}</div></section>{% endif %}
+</div>
+{% schema %}{"name":"Product recommendations","settings":[{"type":"text","id":"heading","label":"Heading","default":"You may also like"},{"type":"product_list","id":"products","label":"Related products","limit":4},{"type":"collection","id":"collection","label":"Fallback collection"}],"presets":[{"name":"Product recommendations"}]}{% endschema %}

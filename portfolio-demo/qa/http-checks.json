@@ -1,0 +1,58 @@
+[
+  {
+    "url": "/",
+    "method": "GET",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "contentRange": null
+  },
+  {
+    "url": "/collections/all?filter.p.m.custom.color=Brown",
+    "method": "GET",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "contentRange": null
+  },
+  {
+    "url": "/products/mesh-tee-black/",
+    "method": "GET",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "contentRange": null
+  },
+  {
+    "url": "/search/suggest?q=mesh",
+    "method": "GET",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "contentRange": null
+  },
+  {
+    "url": "/does-not-exist",
+    "method": "GET",
+    "status": 404,
+    "type": "text/html; charset=utf-8",
+    "contentRange": null
+  },
+  {
+    "url": "/cart",
+    "method": "POST",
+    "status": 405,
+    "type": null,
+    "contentRange": null
+  },
+  {
+    "url": "/assets/reel-brown.mp4",
+    "method": "GET",
+    "status": 206,
+    "type": "video/mp4",
+    "contentRange": "bytes 0-1023/1870151"
+  },
+  {
+    "url": "/assets/reel-brown.mp4",
+    "method": "GET",
+    "status": 416,
+    "type": "video/mp4",
+    "contentRange": "bytes */1870151"
+  }
+]

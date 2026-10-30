@@ -1,0 +1,29 @@
+<section class="hero campaign-slider" data-campaign-slider tabindex="0" role="region" aria-roledescription="carousel" aria-label="Zipsters collections. Use left and right arrow keys to change slides.">
+  {% for block in section.blocks %}
+    <div class="campaign-slide{% if forloop.first %} is-active{% endif %}" data-campaign-slide data-tone="{{ block.settings.tone | default: 'light' }}" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ section.blocks.size }}: {{ block.settings.heading | escape }}" {% unless forloop.first %}aria-hidden="true" inert{% endunless %} style="--slide-y:{{ block.settings.desktop_position }}%;--slide-mobile-x:{{ block.settings.mobile_x }}%;--slide-mobile-y:{{ block.settings.mobile_position }}%" {{ block.shopify_attributes }}>
+      {% capture slide_picture %}
+        <picture class="slide-picture">
+          {% if block.settings.mobile_image != blank %}<source media="(max-width: 767px)" srcset="{{ block.settings.mobile_image | image_url: width: 480 }} 480w, {{ block.settings.mobile_image | image_url: width: 960 }} 960w, {{ block.settings.mobile_image | image_url: width: 1200 }} 1200w" sizes="100vw">
+          {% elsif block.settings.mobile_fallback != blank %}<source media="(max-width: 767px)" srcset="{{ block.settings.mobile_fallback | append: '-480.jpg' | asset_url }} 480w, {{ block.settings.mobile_fallback | append: '-960.jpg' | asset_url }} 960w, {{ block.settings.mobile_fallback | append: '-1200.jpg' | asset_url }} 1200w" sizes="100vw">{% endif %}
+          {% assign photo_loading = 'lazy' %}{% if forloop.first %}{% assign photo_loading = 'eager' %}{% endif %}
+          {% render 'image', image: block.settings.image, fallback: block.settings.fallback, alt: block.settings.alt, sizes: '100vw', loading: photo_loading %}
+        </picture>
+      {% endcapture %}
+      {% if forloop.first %}{{ slide_picture }}{% else %}<template data-slide-media>{{ slide_picture }}</template>{% endif %}
+      <div class="slide-shade" aria-hidden="true"></div>
+      <div class="slide-copy slide-copy--{{ block.settings.alignment }}">
+        {% if forloop.first %}<h1>{{ block.settings.heading | escape }}</h1>{% else %}<h2>{{ block.settings.heading | escape }}</h2>{% endif %}
+        {% if block.settings.link != blank and block.settings.label != blank %}<a class="button button-light" href="{{ block.settings.link }}">{{ block.settings.label | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  {% if section.blocks.size > 1 %}<div class="slider-controls" data-slider-controls hidden>
+<button class="slider-arrow slider-arrow--prev" data-slide-prev aria-label="Previous campaign">←</button>
+<div class="slider-pagination" aria-label="Choose campaign">{% for block in section.blocks %}<button class="slider-dot{% if forloop.first %} is-active{% endif %}" data-slide-select="{{ forloop.index0 }}" aria-label="Show {{ block.settings.heading | escape }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}"><span><i></i></span></button>{% endfor %}</div>
+<button class="slider-arrow slider-arrow--next" data-slide-next aria-label="Next campaign">→</button>
+</div>{% endif %}
+</section>
+<script src="{{ 'campaign-slider.js' | asset_url }}" defer></script>
+{% schema %}
+{"name":"Campaign slideshow","max_blocks":5,"settings":[],"blocks":[{"type":"slide","name":"Campaign slide","settings":[{"type":"image_picker","id":"image","label":"Desktop photograph"},{"type":"image_picker","id":"mobile_image","label":"Mobile photograph"},{"type":"text","id":"fallback","label":"Bundled desktop photo filename"},{"type":"text","id":"mobile_fallback","label":"Bundled mobile photo filename"},{"type":"text","id":"alt","label":"Image description"},{"type":"text","id":"heading","label":"Heading","default":"Henleys"},{"type":"text","id":"label","label":"Button label","default":"SHOP NOW"},{"type":"url","id":"link","label":"Button link"},{"type":"select","id":"alignment","label":"Desktop text position","options":[{"value":"left","label":"Left"},{"value":"right","label":"Right"}],"default":"right"},{"type":"range","id":"desktop_position","label":"Desktop vertical crop","min":0,"max":100,"step":1,"default":37,"unit":"%"},{"type":"range","id":"mobile_x","label":"Mobile horizontal crop","min":0,"max":100,"step":1,"default":50,"unit":"%"},{"type":"range","id":"mobile_position","label":"Mobile vertical crop","min":0,"max":100,"step":1,"default":50,"unit":"%"},{"type":"select","id":"tone","label":"Desktop text color","options":[{"value":"light","label":"Light"},{"value":"dark","label":"Dark"}],"default":"light"}]}],"presets":[{"name":"Campaign slideshow","blocks":[{"type":"slide"}]}]}
+{% endschema %}

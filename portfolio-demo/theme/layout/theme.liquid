@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code | default: 'en' }}">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ page_title }}{% unless page_title contains shop.name %} — {{ shop.name }}{% endunless %}</title><meta name="description" content="{{ page_description | default: 'The Zipsters wardrobe. Explore textured Henleys, T-shirts and pants. Everyday, in character.' | escape }}"><link rel="canonical" href="{{ canonical_url }}"><meta name="theme-color" content="#242920"><link rel="icon" href="{{ 'favicon.svg' | asset_url }}" type="image/svg+xml">{{ content_for_header }}
+{{ 'fonts.css' | asset_url | stylesheet_tag }}
+{{ 'theme.css' | asset_url | stylesheet_tag }}
+{{ 'refinements.css' | asset_url | stylesheet_tag }}
+{{ 'final-polish.css' | asset_url | stylesheet_tag }}
+{{ 'commerce.css' | asset_url | stylesheet_tag }}
+<style>:root{--paper:{{ settings.background | default: '#f7f6f2' }};--ink:{{ settings.foreground | default: '#23251f' }};--olive:{{ settings.accent | default: '#424938' }};}</style>
+<script>window.zipsters={root:{{ routes.root_url | json }},currency:{{ cart.currency.iso_code | default: 'PKR' | json }},locale:{{ request.locale.iso_code | default: 'en-PK' | json }},preview:false};</script>
+<script src="{{ 'theme.js' | asset_url }}" defer></script><script src="{{ 'refinements.js' | asset_url }}" defer></script>
+<script src="{{ 'predictive-search.js' | asset_url }}" defer></script><link rel="stylesheet" href="/assets/demo.css"><script type="module" src="/assets/demo-commerce.js"></script></head>
+<body class="template-{{ template.name }}"><a class="skip-link" href="#main-content">Skip to content</a>{% section 'header' %}<main id="main-content">{{ content_for_layout }}</main>{% section 'footer' %}{% render 'cart-drawer', routes: routes %}<dialog id="demo-info" class="drawer" aria-labelledby="demo-info-title"><div class="drawer-top"><h2 id="demo-info-title">A Zipsters portfolio demo</h2><button class="icon-button" data-close aria-label="Close demo information">×</button></div><div class="guide-content"><p>The original Zipsters design, photography, fonts and videos are preserved in this independent showcase.</p><p>Product prices, sizes, stock, size guide and checkout are sample data. Your bag stays in this browser. No payment, real order, account or newsletter subscription is created.</p><p>Social links open the real Zipsters and creator profiles.</p></div></dialog></body></html>

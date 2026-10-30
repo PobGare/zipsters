@@ -1,0 +1,110 @@
+[
+  {
+    "width": 1440,
+    "route": "/collections/all",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 1440,
+    "route": "/products/pleated-suit-pants-black",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 1440,
+    "route": "/cart",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 1440,
+    "route": "/search?q=henley",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 1440,
+    "route": "/checkout",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 1440,
+    "route": "/missing-page",
+    "banners": 0,
+    "headerHeight": 76,
+    "overflow": false,
+    "sectionPaddingTop": "76px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/collections/all",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/products/pleated-suit-pants-black",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/cart",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/search?q=henley",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/checkout",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  },
+  {
+    "width": 390,
+    "route": "/missing-page",
+    "banners": 0,
+    "headerHeight": 66,
+    "overflow": false,
+    "sectionPaddingTop": "66px",
+    "sectionTop": 0
+  }
+]

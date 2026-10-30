@@ -1,0 +1,82 @@
+[
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Textured Half Sleeve Henley",
+      "color": "Black",
+      "fallback": "henley-black",
+      "fallback_alt": "henley-black-alt",
+      "link": "/products/textured-half-sleeve-henley-black"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Textured Half Sleeve Henley",
+      "color": "White",
+      "fallback": "henley-white",
+      "fallback_alt": "henley-white-alt",
+      "link": "/products/textured-half-sleeve-henley-white"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Textured Half Sleeve Henley",
+      "color": "Brown",
+      "fallback": "henley-brown",
+      "fallback_alt": "look-brown",
+      "link": "/products/textured-half-sleeve-henley-brown"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Textured Half Sleeve Henley",
+      "color": "Dark Grey",
+      "fallback": "henley-grey",
+      "fallback_alt": "henley-grey-alt",
+      "link": "/products/textured-half-sleeve-henley-dark-grey"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Textured Long Sleeve Henley",
+      "color": "White",
+      "fallback": "henley-long-white",
+      "fallback_alt": "story-garden",
+      "link": "/products/textured-long-sleeve-henley-white"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Mesh Tee",
+      "color": "Black",
+      "fallback": "mesh-black",
+      "fallback_alt": "mesh-black-alt",
+      "link": "/products/mesh-tee-black"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Raw Denim Pants",
+      "color": "Denim",
+      "fallback": "denim",
+      "fallback_alt": "denim-styled",
+      "link": "/products/raw-denim-pants"
+    }
+  },
+  {
+    "type": "piece",
+    "settings": {
+      "title": "Pleated Suit Pants",
+      "color": "Black",
+      "fallback": "pleated-pants",
+      "fallback_alt": "pleated-pants-alt",
+      "link": "/products/pleated-suit-pants-black"
+    }
+  }
+]
