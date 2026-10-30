@@ -17,11 +17,12 @@ Open http://localhost:4174. Set `PORT` to choose a different port. The local ser
 npm test
 npm run audit
 npm run build
+npm run verify:function
 ```
 
-The build verifies the main routes and copies static files into `dist`. Dynamic storefront pages are rendered by the Node function; `dist` by itself is not the complete deployment. Browser QA evidence and the tested flows are documented in `qa/REPORT.md`.
+The build verifies the main routes and copies static files into `dist`. Dynamic storefront pages are rendered by the Node function; `dist` by itself is not the complete deployment. `verify:function` uses the pinned official Vercel Node builder to create and cold-start standalone and nested function packages locally, without an account or deployment. It requires the development dependencies installed by `npm ci`. Browser QA evidence and the tested flows are documented in `qa/REPORT.md`.
 
-## Vercel setup — prepared, not deployed
+## Vercel configuration
 
 When deployment is authorized, import this folder as a Vercel project, or select **Root Directory: `portfolio-demo`** if importing the parent repository.
 
@@ -34,9 +35,9 @@ When deployment is authorized, import this folder as a Vercel project, or select
 | Output directory | `dist` |
 | Environment variables | None required |
 
-`vercel.json` routes storefront URLs to `api/storefront.js` and serves `/assets/*` from the static output. The function explicitly includes the Liquid templates and catalog files. Product deep links, search queries, filter queries, and 404s are handled on the server. Configuration follows Vercel's [configuration reference](https://vercel.com/docs/project-configuration/vercel-json) and [function file inclusion guidance](https://vercel.com/kb/guide/how-can-i-use-files-in-serverless-functions).
+`vercel.json` routes storefront URLs to `api/storefront.js` and serves `/assets/*` from the static output. Its `includeFiles` string explicitly covers `data/**/*.json`, `theme/**/*.json`, and `theme/**/*.liquid`. All runtime filesystem paths resolve relative to `server/catalog.mjs`, so they work whether Vercel places the app at the function root or preserves a `portfolio-demo/` prefix. Product deep links, search queries, filter queries, and 404s are handled on the server. Configuration follows Vercel's [configuration reference](https://vercel.com/docs/project-configuration/vercel-json) and [function file inclusion guidance](https://vercel.com/kb/guide/how-can-i-use-files-in-serverless-functions).
 
-No Shopify token, merchant account, database, external image CDN, or payment provider is needed. No deployment, Git commit, or push was performed. A hosted Vercel smoke test remains for after deployment is authorized.
+No Shopify token, merchant account, database, external image CDN, or payment provider is needed. This repair does not commit, push, or deploy. The user-reported deployment at `https://zipsters-demo.vercel.app` must be redeployed with the fix before a hosted smoke test can confirm it. See `qa/DEPLOYMENT-FIX.md` for the reproduced startup failure, full runtime inventory, and package verification results.
 
 ## What is preserved
 

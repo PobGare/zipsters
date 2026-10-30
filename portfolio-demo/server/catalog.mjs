@@ -2,7 +2,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const projectRoot = process.env.VERCEL ? process.cwd() : fileURLToPath(new URL('../', import.meta.url));
+// Vercel may preserve the repository's portfolio-demo/ prefix in the function.
+// Its cwd is the bundle root, not necessarily this app's root. Node's builder
+// preserves .mjs modules, so resolve catalogs and templates beside this module.
+export const projectRoot = fileURLToPath(new URL('../', import.meta.url));
 const read = name => fs.readFile(path.join(projectRoot, 'data', name), 'utf8').then(JSON.parse);
 const [pieces, editorial] = await Promise.all([read('preview-catalog.json'), read('catalog-editorial.json')]);
 const prices = [329000, 329000, 329000, 329000, 399000, 279000, 549000, 499000];

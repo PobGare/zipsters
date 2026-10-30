@@ -4,7 +4,10 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/storefront.js": { "includeFiles": "{theme,data}/**", "maxDuration": 30 }
+    "api/storefront.js": {
+      "includeFiles": "{data/**/*.json,theme/**/*.json,theme/**/*.liquid}",
+      "maxDuration": 30
+    }
   },
   "rewrites": [
     { "source": "/", "destination": "/api/storefront" },

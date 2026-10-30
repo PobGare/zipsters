@@ -2,6 +2,7 @@ import {products, searchProducts, collectionFor, projectRoot} from './catalog.mj
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import {Liquid} from 'liquidjs';
+// Share the module-relative app root with the catalog; never use the function cwd.
 const root=path.join(projectRoot,'theme');
 const originalRead=async file=>fs.readFile(file,'utf8');
 const transform=source=>source.replace(/{%\s*schema\s*%}[\s\S]*?{%\s*endschema\s*%}/g,'').replace(/{%\s*paginate\s+.*?%}/g,'').replace(/{%\s*endpaginate\s*%}/g,'').replace(/{%\s*form\s+'customer'.*?%}/g,'<form id="newsletter-form" class="newsletter-form" method="post" action="/contact">').replace(/{%\s*form\s+'product'.*?%}/g,'<form class="product-form" data-product-form action="/cart/add" method="post">').replace(/{%\s*endform\s*%}/g,'</form>');
