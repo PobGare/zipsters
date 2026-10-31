@@ -1,56 +1,105 @@
-
 # ZIPSTERS — Shopify Fashion Storefront
 
-A custom Shopify fashion storefront developed for Zipsters, focused on contemporary visual design, responsive shopping experiences, and intuitive e-commerce interactions.
+**A custom-built fashion e-commerce experience, combining editorial design with modern storefront functionality.**
+
+[**Live Website**](https://zipsters-demo.vercel.app) | [**GitHub Repository**](https://github.com/PobGare/zipsters)
+
+---
 
 ## Project Overview
 
-The storefront brings together editorial fashion presentation and practical e-commerce functionality, with an emphasis on garment photography, product discovery, and seamless navigation across desktop and mobile devices.
+ZIPSTERS is a custom Shopify storefront developed for a contemporary fashion brand.
 
-## Features
+The project focuses on creating a premium shopping experience through strong visual storytelling, responsive layouts, intuitive product discovery, and smooth interactions.
 
-### Homepage
-- Responsive campaign slideshow
-- Product category navigation
-- Best Sellers section
-- Editorial fashion imagery
-- Get the Look section
-- Responsive navigation and footer
+Built with a mobile-first mindset, the storefront combines fashion-focused presentation with practical e-commerce functionality.
+
+## Preview
+
+### Desktop Homepage
+
+![ZIPSTERS Desktop Homepage](portfolio-demo/qa/desktop-home.png)
+
+### Mobile Experience
+
+![ZIPSTERS Mobile Homepage](portfolio-demo/qa/mobile-home.png)
+
+### Product Detail Page
+
+![ZIPSTERS Product Page](portfolio-demo/qa/desktop-product.png)
+
+## Key Features
+
+### Homepage & Visual Experience
+
+- Automatic hero slideshow with smooth transitions
+- Responsive product category navigation
+- Best Sellers showcase
+- Editorial product photography
+- Get the Look section with fashion content
+- Responsive header, navigation, and footer
 
 ### Product Pages
-- Contained product image galleries
-- Thumbnail selection and gallery navigation
-- Mobile-friendly image interactions
-- Product information and detail accordions
+
+- Interactive product image galleries
+- Thumbnail navigation and image controls
+- Mobile-friendly product browsing
+- Product information and details
 - Add to Bag and Buy Now interfaces
 - Related product recommendations
 
 ### Shopping Experience
-- Search interface
+
+- Product search and suggestions
 - Collection filtering and sorting
-- Shopping bag drawer
-- Responsive navigation menus
-- Smooth transitions and scroll-lock behavior
+- Interactive shopping bag drawer
+- Persistent cart in the standalone demo
+- Responsive navigation and mobile menu
+- Smooth transitions and carefully managed scrolling
 
-## Technologies
+## Technology Stack
 
-- Shopify
-- Liquid
-- HTML
-- CSS
-- JavaScript
-- Responsive Web Design
+- **Shopify Liquid** — Custom theme templates and sections
+- **HTML5** — Semantic page structure
+- **CSS3** — Responsive layouts, styling, and animations
+- **JavaScript** — Interactive storefront functionality
+- **Node.js** — Standalone demo rendering and supporting functionality
+- **Vercel** — Public deployment of the standalone demo
 
-## Project Status
+## Shopify Theme & Live Demo
 
-Custom storefront developed for client review and Shopify integration.
+The repository contains the original Shopify theme and a separate standalone portfolio demo.
 
-Production checkout, inventory, payments, and other merchant-specific features depend on the connected Shopify store and its configuration.
+The original theme is designed for integration with a Shopify store.
+
+The [live demo](https://zipsters-demo.vercel.app) recreates the storefront experience independently of Shopify so visitors can explore its layout, product pages, navigation, search, filters, and shopping interactions.
+
+**Note:** The standalone demo uses illustrative product data and simulated checkout functionality. It does not process real orders or payments.
+
+## Responsive Design
+
+ZIPSTERS is designed for desktop, tablet, and mobile browsing, with particular attention to:
+
+- Responsive image presentation
+- Touch-friendly navigation
+- Consistent typography and spacing
+- Mobile product galleries
+- Smooth shopping interactions
+- Usable layouts across screen sizes
+
+## Development & Testing
+
+The standalone demo was tested with automated checks and desktop/mobile browser testing covering core storefront functionality.
+
+The Shopify theme is maintained separately from the demo implementation.
 
 ## Developer
 
-**Muhammad Bin Qasim**
-
+**Muhammad Bin Qasim**  
 Web Developer
 
-[GitHub Profile](https://github.com/PobGare)
+[Portfolio](https://pobgare.github.io/portfolio/) | [GitHub](https://github.com/PobGare)
+
+---
+
+*Developed as a custom fashion e-commerce storefront project.*
