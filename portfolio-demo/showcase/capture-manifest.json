@@ -1,0 +1,104 @@
+{
+  "browser": "Chromium 153.0.8010.12",
+  "baseURL": "http://127.0.0.1:4174",
+  "deviceScaleFactor": 2,
+  "reducedMotion": "reduce",
+  "fullPage": false,
+  "captures": [
+    {
+      "file": "desktop-home.png",
+      "route": "/",
+      "width": 1440,
+      "height": 900,
+      "mobile": false,
+      "pixels": {
+        "width": 2880,
+        "height": 1800
+      },
+      "bytes": 5794029,
+      "checks": {
+        "devicePixelRatio": 2,
+        "fontsReady": true,
+        "loadedFontFaces": [
+          "Barlow Condensed 800",
+          "DM Sans 400",
+          "DM Sans 500",
+          "DM Sans 550",
+          "DM Sans 600",
+          "Libre Caslon Display 400"
+        ],
+        "images": 11,
+        "brokenImages": 0,
+        "horizontalOverflow": false,
+        "scrollY": 0,
+        "openDialogs": 0,
+        "runningAnimations": 0,
+        "activeCampaign": "1 of 3: Henleys"
+      },
+      "errors": []
+    },
+    {
+      "file": "mobile-home.png",
+      "route": "/",
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "pixels": {
+        "width": 780,
+        "height": 1688
+      },
+      "bytes": 1379475,
+      "checks": {
+        "devicePixelRatio": 2,
+        "fontsReady": true,
+        "loadedFontFaces": [
+          "Barlow Condensed 800",
+          "DM Sans 400",
+          "DM Sans 500",
+          "DM Sans 550",
+          "DM Sans 600",
+          "Libre Caslon Display 400"
+        ],
+        "images": 11,
+        "brokenImages": 0,
+        "horizontalOverflow": false,
+        "scrollY": 0,
+        "openDialogs": 0,
+        "runningAnimations": 0,
+        "activeCampaign": "1 of 3: Henleys"
+      },
+      "errors": []
+    },
+    {
+      "file": "desktop-product.png",
+      "route": "/products/textured-half-sleeve-henley-black",
+      "width": 1440,
+      "height": 1000,
+      "mobile": false,
+      "pixels": {
+        "width": 2880,
+        "height": 2000
+      },
+      "bytes": 3931499,
+      "checks": {
+        "devicePixelRatio": 2,
+        "fontsReady": true,
+        "loadedFontFaces": [
+          "Barlow Condensed 800",
+          "DM Sans 400",
+          "DM Sans 500",
+          "DM Sans 550",
+          "Libre Caslon Display 400"
+        ],
+        "images": 12,
+        "brokenImages": 0,
+        "horizontalOverflow": false,
+        "scrollY": 0,
+        "openDialogs": 0,
+        "runningAnimations": 0,
+        "activeCampaign": null
+      },
+      "errors": []
+    }
+  ]
+}

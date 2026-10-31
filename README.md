@@ -16,17 +16,27 @@ Built with a mobile-first mindset, the storefront combines fashion-focused prese
 
 ## Preview
 
+Captured from the standalone demo in Chromium at 2× device pixel ratio. Click any preview to view the full-resolution image.
+
 ### Desktop Homepage
 
-![ZIPSTERS Desktop Homepage](portfolio-demo/qa/desktop-home.png)
+<a href="portfolio-demo/showcase/desktop-home.png">
+  <img src="portfolio-demo/showcase/desktop-home.png" alt="ZIPSTERS desktop homepage with the Henleys campaign and category previews" width="960">
+</a>
 
 ### Mobile Experience
 
-![ZIPSTERS Mobile Homepage](portfolio-demo/qa/mobile-home.png)
+<p align="center">
+  <a href="portfolio-demo/showcase/mobile-home.png">
+    <img src="portfolio-demo/showcase/mobile-home.png" alt="ZIPSTERS mobile homepage with responsive navigation and the Henleys campaign" width="390">
+  </a>
+</p>
 
 ### Product Detail Page
 
-![ZIPSTERS Product Page](portfolio-demo/qa/desktop-product.png)
+<a href="portfolio-demo/showcase/desktop-product.png">
+  <img src="portfolio-demo/showcase/desktop-product.png" alt="ZIPSTERS desktop product page with the Black Henley gallery, size selector, and purchase controls" width="960">
+</a>
 
 ## Key Features
 
