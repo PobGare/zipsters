@@ -1,5 +1,7 @@
 # Final pre-client QA — 12 October 2026
 
+> Historical Shopify-theme presentation record. Statements about uncommitted changes, local-only presentation and test counts describe the dated pass below, not current repository/deployment status. The working hosted website is the separate standalone demo with simulated checkout. See [current demo maintenance](../portfolio-demo/qa/MAINTENANCE.md) for 2 November 2026 checks. No new Shopify Theme Check or real merchant integration certification is claimed by that pass.
+
 ## Baseline and eight scoped changes
 
 Started with a clean working tree at committed baseline `274d23a`. No destructive Git commands or new commits were made. Changes remain uncommitted for review. Approved identity, homepage hero, image grid, typography and mobile editorial layouts are preserved.

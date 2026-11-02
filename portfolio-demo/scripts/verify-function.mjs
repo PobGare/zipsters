@@ -70,6 +70,6 @@ for (const layout of ['standalone','nested']) {
   console.log(`${layout}: ${included.length} data/template files packaged; ${smoke.routes} route checks passed.`);
 }
 await fs.writeFile(path.join(root,'qa/function-package.json'),JSON.stringify({
-  builder:'@vercel/node 29.0.0',includeFiles:functionConfig.includeFiles,results,
+  builder:`@vercel/node ${JSON.parse(await fs.readFile(path.join(root,'node_modules/@vercel/node/package.json'),'utf8')).version}`,includeFiles:functionConfig.includeFiles,results,
 },null,2)+'\n');
 console.log('Verified actual Node function artifacts locally. Nothing uploaded or deployed.');

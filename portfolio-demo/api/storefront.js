@@ -1,6 +1,8 @@
 import {render} from '../server/render.mjs';
+import {securityHeaders} from '../server/security.mjs';
 
 export default async function handler(req, res) {
+  for (const [name,value] of Object.entries(securityHeaders)) res.setHeader(name,value);
   if (!['GET','HEAD'].includes(req.method)) {
     res.setHeader('Allow','GET, HEAD');res.statusCode=405;
     return res.end('Portfolio demo: transactions are browser-local only.');

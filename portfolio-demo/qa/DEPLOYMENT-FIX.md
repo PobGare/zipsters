@@ -1,5 +1,9 @@
 # Vercel startup repair — 31 October 2026
 
+> Historical repair record. The hosted demo is working and was revisited on 2 November 2026; it no longer awaits the deployment described below. Local HEAD is `c87bf7a` plus uncommitted maintenance edits; the hosted deployment's commit was not independently identified. Current verification is in [MAINTENANCE.md](MAINTENANCE.md). Earlier raw theme hashes were checkout-dependent and are superseded by the revision-backed normalized baseline. The maintenance pass did not deploy.
+
+> Historical repair record. The hosted demo is working and was revisited on 2 November 2026; it no longer awaits the deployment described below. Local HEAD is `c87bf7a` plus uncommitted maintenance edits; the hosted deployment's commit was not independently identified. Current verification is in [MAINTENANCE.md](MAINTENANCE.md). Earlier raw theme hashes were checkout-dependent and are superseded by the revision-backed normalized baseline. The maintenance pass did not deploy.
+
 ## Root cause and reproduction
 
 `server/catalog.mjs` previously selected `process.cwd()` whenever `VERCEL` was set. With a project rooted at `portfolio-demo` inside a larger Git repository, Vercel's Node builder can preserve that prefix in the function bundle. The handler then lives at `/var/task/portfolio-demo/api/storefront.js`, and its data lives at `/var/task/portfolio-demo/data/`, while the process working directory remains `/var/task`.

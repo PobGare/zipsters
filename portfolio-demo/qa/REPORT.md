@@ -1,5 +1,17 @@
 # Zipsters demo QA
 
+## Current maintenance status — 2 November 2026
+
+See [MAINTENANCE.md](MAINTENANCE.md) for the current 35-test run, honest revision-backed integrity audit, hosted verification, CSP, media review and limitations. Entries below are historical snapshots, including their then-current counts and deployment status. Their raw-hash success claims were machine-specific: the original baseline captured mixed line endings, and the old reporter could print success despite failures. The new audit supersedes those claims. The hosted Vercel demo now works; no deployment occurred during this maintenance pass.
+
+## Historical checks — 30–31 October 2026
+
+## Current maintenance status — 2 November 2026
+
+See [MAINTENANCE.md](MAINTENANCE.md) for the current 35-test run, honest revision-backed integrity audit, hosted verification, CSP, media review and limitations. Entries below are historical snapshots, including their then-current counts and deployment status. Their raw-hash success claims were machine-specific: the original baseline captured mixed line endings, and the old reporter could print success despite failures. The new audit supersedes those claims. The hosted Vercel demo now works; no deployment occurred during this maintenance pass.
+
+## Historical checks — 30–31 October 2026
+
 Tested locally on 30 October 2026. No deployment or push was performed.
 
 ## Automated checks

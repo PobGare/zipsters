@@ -1,6 +1,15 @@
 {
   "routes": 17,
   "assets": 100,
-  "originalTheme": "165 files match original SHA-256 hashes",
+  "originalTheme": {
+    "status": "checked",
+    "expected": 165,
+    "matched": 165,
+    "changed": [],
+    "missing": [],
+    "unexpected": [],
+    "errors": [],
+    "revision": "c3056ab0daf180985d68c3efd445504ea079d698"
+  },
   "failures": []
 }

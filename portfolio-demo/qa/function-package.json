@@ -1,5 +1,5 @@
 {
-  "builder": "@vercel/node 29.0.0",
+  "builder": "@vercel/node 29.0.1",
   "includeFiles": "{data/**/*.json,theme/**/*.json,theme/**/*.liquid}",
   "results": [
     {
@@ -7,7 +7,7 @@
       "runtime": "nodejs24.x",
       "handler": "api/storefront.js",
       "includedFiles": 41,
-      "bundleFiles": 47,
+      "bundleFiles": 48,
       "routes": 23,
       "runtimeReads": [
         "data/catalog-editorial.json",
@@ -48,6 +48,7 @@
         "package.json",
         "server/catalog.mjs",
         "server/render.mjs",
+        "server/security.mjs",
         "theme/config/settings_data.json",
         "theme/config/settings_schema.json",
         "theme/layout/theme.liquid",
@@ -93,7 +94,7 @@
       "runtime": "nodejs24.x",
       "handler": "portfolio-demo/api/storefront.js",
       "includedFiles": 41,
-      "bundleFiles": 47,
+      "bundleFiles": 48,
       "routes": 23,
       "runtimeReads": [
         "portfolio-demo/data/catalog-editorial.json",
@@ -134,6 +135,7 @@
         "portfolio-demo/package.json",
         "portfolio-demo/server/catalog.mjs",
         "portfolio-demo/server/render.mjs",
+        "portfolio-demo/server/security.mjs",
         "portfolio-demo/theme/config/settings_data.json",
         "portfolio-demo/theme/config/settings_schema.json",
         "portfolio-demo/theme/layout/theme.liquid",

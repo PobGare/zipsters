@@ -1,0 +1,114 @@
+{
+  "revision": "c3056ab0daf180985d68c3efd445504ea079d698",
+  "baselineIntroduced": "9941d9b",
+  "originalCount": 165,
+  "originalRawWorkingMatches": 165,
+  "normalizedRevisionMatches": 165,
+  "substantiveMismatches": 0,
+  "lineEndingDifferences": [
+    {
+      "path": "assets/campaign-slider.js",
+      "previousSha256": "129b28ec4d896e3d616c93eae4a5ec69d5f63dfb03fc9464d21992d998a19be1",
+      "revisionSha256": "a7997259b4fb2fde0b2095a872ad948f72e188eec8a22c77d8c53f2a142b031d",
+      "canonicalSha256": "a7997259b4fb2fde0b2095a872ad948f72e188eec8a22c77d8c53f2a142b031d",
+      "crlf": 1,
+      "bareLf": 69
+    },
+    {
+      "path": "assets/commerce.css",
+      "previousSha256": "fa1c1b0461be1c94a3081deed05e396cb703a9c210f509666573252df9d73a1b",
+      "revisionSha256": "32d354d8991c8bec098aad9414f57f9f95d1580c0b3ac8b86b5511822403e2b3",
+      "canonicalSha256": "32d354d8991c8bec098aad9414f57f9f95d1580c0b3ac8b86b5511822403e2b3",
+      "crlf": 8,
+      "bareLf": 211
+    },
+    {
+      "path": "assets/dmsans-OFL.txt",
+      "previousSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "revisionSha256": "2af94f4fb533be8fa23282eb33e08ca311ddf47c2f32777e2040b282deeec65c",
+      "canonicalSha256": "2af94f4fb533be8fa23282eb33e08ca311ddf47c2f32777e2040b282deeec65c",
+      "crlf": 93,
+      "bareLf": 0
+    },
+    {
+      "path": "assets/reels.js",
+      "previousSha256": "40ef19f273826049ea841217e6bbc50f49f370884f5492baca326354b961b654",
+      "revisionSha256": "11641f1871a6b3407e58ba539449157b86c24ab726514dd471270cfe7b189950",
+      "canonicalSha256": "11641f1871a6b3407e58ba539449157b86c24ab726514dd471270cfe7b189950",
+      "crlf": 1,
+      "bareLf": 69
+    },
+    {
+      "path": "assets/refinements.css",
+      "previousSha256": "fd30290717690074e1395fa36ae378eb31fdf4f86cec55a0bfee3e921c7ddee5",
+      "revisionSha256": "f1e99140bcb7130b2b7b10c018e76e0d0ddd43d0018fd9494cea443b44028f2c",
+      "canonicalSha256": "f1e99140bcb7130b2b7b10c018e76e0d0ddd43d0018fd9494cea443b44028f2c",
+      "crlf": 2,
+      "bareLf": 19
+    },
+    {
+      "path": "assets/refinements.js",
+      "previousSha256": "3af5adbc79f6e0ea2a477ef21639b43364d866ed8cd38be8fe1b074c6e167fdd",
+      "revisionSha256": "6be1c544115bc05d354b1d05a0d74efe59e143620ecf19fc0a48441ba7dee753",
+      "canonicalSha256": "6be1c544115bc05d354b1d05a0d74efe59e143620ecf19fc0a48441ba7dee753",
+      "crlf": 1,
+      "bareLf": 32
+    },
+    {
+      "path": "assets/theme.css",
+      "previousSha256": "1f3efdbdcf66c92e8ce76574427acc13fdd740b027d2a274efd7a18e586c33a5",
+      "revisionSha256": "d234a21db33be9b51c0b4ffab32f0ec063bffbfe7d199880727e089f672e6688",
+      "canonicalSha256": "d234a21db33be9b51c0b4ffab32f0ec063bffbfe7d199880727e089f672e6688",
+      "crlf": 2,
+      "bareLf": 21
+    },
+    {
+      "path": "sections/best-sellers-pair.liquid",
+      "previousSha256": "4fa009e5d7510f3d36a35294a707f708f38c5ed83568de7dfb7bbe89496c5909",
+      "revisionSha256": "19c081f45cb925a51b96ea8ee8f7991c69a0ba1b0f37617aa33ebcbe2b99989a",
+      "canonicalSha256": "19c081f45cb925a51b96ea8ee8f7991c69a0ba1b0f37617aa33ebcbe2b99989a",
+      "crlf": 1,
+      "bareLf": 7
+    },
+    {
+      "path": "sections/ending-strip.liquid",
+      "previousSha256": "e0622a569b2de0fece7bceab471dca3088ddba4df7ac4a247519ea247a0710be",
+      "revisionSha256": "b4281ec918ece8561c6e208ab26ae904e3dcd79f67af47673127ce0ce6b1fbad",
+      "canonicalSha256": "b4281ec918ece8561c6e208ab26ae904e3dcd79f67af47673127ce0ce6b1fbad",
+      "crlf": 2,
+      "bareLf": 1
+    },
+    {
+      "path": "sections/hero.liquid",
+      "previousSha256": "be7dbd33dc99b1e2e206df703115bdb79c0a6f147b001023ade4484c0d982a10",
+      "revisionSha256": "0455a32cd54c667fa46024e95ef224557852603ae43b02d97913fd3bf4eb2874",
+      "canonicalSha256": "0455a32cd54c667fa46024e95ef224557852603ae43b02d97913fd3bf4eb2874",
+      "crlf": 1,
+      "bareLf": 28
+    },
+    {
+      "path": "sections/main-product.liquid",
+      "previousSha256": "52c2606294c55d9c30725492f27453b4e232b18e1c81399b582590da8d414f43",
+      "revisionSha256": "c9db1b7c6eb70b6edca18ce023ecfa120601e881086df7d64c46137b0457c41c",
+      "canonicalSha256": "c9db1b7c6eb70b6edca18ce023ecfa120601e881086df7d64c46137b0457c41c",
+      "crlf": 1,
+      "bareLf": 51
+    },
+    {
+      "path": "sections/product-recommendations.liquid",
+      "previousSha256": "c817529e85a89bb648b35229ae1c1af53aefef4a7fd6ff2c883090b5a2753fb3",
+      "revisionSha256": "392c840a6715a40e67670888cb0d79090021a2b75f873c6d4a6e1fbb08225d02",
+      "canonicalSha256": "392c840a6715a40e67670888cb0d79090021a2b75f873c6d4a6e1fbb08225d02",
+      "crlf": 1,
+      "bareLf": 17
+    },
+    {
+      "path": "sections/reels.liquid",
+      "previousSha256": "e3d2b0f1d61cba72e4b36c9101e83c013bcd76fcfb6853080f15fe3e90892145",
+      "revisionSha256": "d7b61fae387b519bf99c8186df6d7b2db7a4963cb004705f4dbdbab3a950241f",
+      "canonicalSha256": "d7b61fae387b519bf99c8186df6d7b2db7a4963cb004705f4dbdbab3a950241f",
+      "crlf": 1,
+      "bareLf": 14
+    }
+  ]
+}

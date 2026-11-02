@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-02T10:21:38.381Z",
+  "url": "https://zipsters-demo.vercel.app",
+  "deploymentRevision": "not independently identified",
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/collections/all",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/collections/henleys",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/products/textured-half-sleeve-henley-black",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/search?q=henley",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/cart",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/checkout",
+      "status": 200,
+      "expectedStatus": 200,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/maintenance-missing-page",
+      "status": 404,
+      "expectedStatus": 404,
+      "renderError": false,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ]
+}

@@ -1,0 +1,1694 @@
+{
+  "scope": "Tracked working-tree files only; heuristic scan, no credential values retained; not a complete history/entropy scan.",
+  "trackedFiles": 477,
+  "totalBytes": 251055959,
+  "duplicateGroups": 159,
+  "duplicateBytesBeyondFirst": 73639462,
+  "largest": [
+    {
+      "path": "portfolio-demo/public/assets/reel-navy-desktop.mp4",
+      "bytes": 11935779
+    },
+    {
+      "path": "theme/assets/reel-navy-desktop.mp4",
+      "bytes": 11935779
+    },
+    {
+      "path": "portfolio-demo/public/assets/reel-white-desktop.mp4",
+      "bytes": 8524019
+    },
+    {
+      "path": "theme/assets/reel-white-desktop.mp4",
+      "bytes": 8524019
+    },
+    {
+      "path": "assets/originals/713725284.jpg",
+      "bytes": 6581798
+    },
+    {
+      "path": "portfolio-demo/showcase/desktop-home.png",
+      "bytes": 5794029
+    },
+    {
+      "path": "assets/originals/711426318.jpg",
+      "bytes": 5587567
+    },
+    {
+      "path": "portfolio-demo/public/assets/reel-brown-desktop.mp4",
+      "bytes": 4773076
+    },
+    {
+      "path": "theme/assets/reel-brown-desktop.mp4",
+      "bytes": 4773076
+    },
+    {
+      "path": "assets/originals/717168987.jpg",
+      "bytes": 4533418
+    },
+    {
+      "path": "assets/originals/710667119.jpg",
+      "bytes": 4523893
+    },
+    {
+      "path": "assets/originals/713564360.jpg",
+      "bytes": 4105278
+    },
+    {
+      "path": "portfolio-demo/public/assets/reel-navy.mp4",
+      "bytes": 4080757
+    },
+    {
+      "path": "theme/assets/reel-navy.mp4",
+      "bytes": 4080757
+    },
+    {
+      "path": "portfolio-demo/public/assets/reel-navy-desktop.webm",
+      "bytes": 4054892
+    },
+    {
+      "path": "theme/assets/reel-navy-desktop.webm",
+      "bytes": 4054892
+    },
+    {
+      "path": "assets/originals/714383629.jpg",
+      "bytes": 4029054
+    },
+    {
+      "path": "portfolio-demo/showcase/desktop-product.png",
+      "bytes": 3931499
+    },
+    {
+      "path": "assets/originals/713224965.jpg",
+      "bytes": 3543648
+    },
+    {
+      "path": "assets/originals/724312887.jpg",
+      "bytes": 3394796
+    }
+  ],
+  "possibleSecrets": [],
+  "duplicates": [
+    [
+      {
+        "path": "portfolio-demo/data/catalog-editorial.json",
+        "bytes": 1175
+      },
+      {
+        "path": "research/catalog-editorial.json",
+        "bytes": 1175
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/data/image-provenance.json",
+        "bytes": 21779
+      },
+      {
+        "path": "research/image-provenance.json",
+        "bytes": 21779
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/data/preview-catalog.json",
+        "bytes": 1985
+      },
+      {
+        "path": "research/preview-catalog.json",
+        "bytes": 1985
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/barlowcondensed-OFL.txt",
+        "bytes": 4377
+      },
+      {
+        "path": "research/font-licenses/barlowcondensed-OFL.txt",
+        "bytes": 4377
+      },
+      {
+        "path": "theme/assets/barlowcondensed-OFL.txt",
+        "bytes": 4377
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-cafe-1200.jpg",
+        "bytes": 321194
+      },
+      {
+        "path": "theme/assets/campaign-cafe-1200.jpg",
+        "bytes": 321194
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-cafe-2400.jpg",
+        "bytes": 973294
+      },
+      {
+        "path": "theme/assets/campaign-cafe-2400.jpg",
+        "bytes": 973294
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-cafe-480.jpg",
+        "bytes": 65189
+      },
+      {
+        "path": "theme/assets/campaign-cafe-480.jpg",
+        "bytes": 65189
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-cafe-960.jpg",
+        "bytes": 218106
+      },
+      {
+        "path": "theme/assets/campaign-cafe-960.jpg",
+        "bytes": 218106
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-garden-1200.jpg",
+        "bytes": 224120
+      },
+      {
+        "path": "theme/assets/campaign-garden-1200.jpg",
+        "bytes": 224120
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-garden-480.jpg",
+        "bytes": 58603
+      },
+      {
+        "path": "theme/assets/campaign-garden-480.jpg",
+        "bytes": 58603
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-garden-960.jpg",
+        "bytes": 162314
+      },
+      {
+        "path": "theme/assets/campaign-garden-960.jpg",
+        "bytes": 162314
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/campaign-slider.js",
+        "bytes": 4703
+      },
+      {
+        "path": "theme/assets/campaign-slider.js",
+        "bytes": 4703
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/collection-filters.js",
+        "bytes": 4329
+      },
+      {
+        "path": "theme/assets/collection-filters.js",
+        "bytes": 4329
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/commerce.css",
+        "bytes": 18954
+      },
+      {
+        "path": "theme/assets/commerce.css",
+        "bytes": 18954
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-1200.jpg",
+        "bytes": 508606
+      },
+      {
+        "path": "theme/assets/denim-1200.jpg",
+        "bytes": 508606
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-1600.jpg",
+        "bytes": 1093505
+      },
+      {
+        "path": "theme/assets/denim-1600.jpg",
+        "bytes": 1093505
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-480.jpg",
+        "bytes": 73161
+      },
+      {
+        "path": "theme/assets/denim-480.jpg",
+        "bytes": 73161
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-960.jpg",
+        "bytes": 310449
+      },
+      {
+        "path": "theme/assets/denim-960.jpg",
+        "bytes": 310449
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-styled-1200.jpg",
+        "bytes": 644711
+      },
+      {
+        "path": "theme/assets/denim-styled-1200.jpg",
+        "bytes": 644711
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-styled-1600.jpg",
+        "bytes": 1096767
+      },
+      {
+        "path": "theme/assets/denim-styled-1600.jpg",
+        "bytes": 1096767
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-styled-480.jpg",
+        "bytes": 74961
+      },
+      {
+        "path": "theme/assets/denim-styled-480.jpg",
+        "bytes": 74961
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/denim-styled-960.jpg",
+        "bytes": 398300
+      },
+      {
+        "path": "theme/assets/denim-styled-960.jpg",
+        "bytes": 398300
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/dmsans-OFL.txt",
+        "bytes": 4482
+      },
+      {
+        "path": "research/font-licenses/dmsans-OFL.txt",
+        "bytes": 4482
+      },
+      {
+        "path": "theme/assets/dmsans-OFL.txt",
+        "bytes": 4482
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/favicon.svg",
+        "bytes": 173
+      },
+      {
+        "path": "theme/assets/favicon.svg",
+        "bytes": 173
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/final-polish.css",
+        "bytes": 7320
+      },
+      {
+        "path": "theme/assets/final-polish.css",
+        "bytes": 7320
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/font-0.woff2",
+        "bytes": 22464
+      },
+      {
+        "path": "theme/assets/font-0.woff2",
+        "bytes": 22464
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/font-1.woff2",
+        "bytes": 36932
+      },
+      {
+        "path": "theme/assets/font-1.woff2",
+        "bytes": 36932
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/font-2.woff2",
+        "bytes": 24236
+      },
+      {
+        "path": "theme/assets/font-2.woff2",
+        "bytes": 24236
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/fonts.css",
+        "bytes": 2374
+      },
+      {
+        "path": "theme/assets/fonts.css",
+        "bytes": 2374
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-1200.jpg",
+        "bytes": 544581
+      },
+      {
+        "path": "theme/assets/henley-black-1200.jpg",
+        "bytes": 544581
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-480.jpg",
+        "bytes": 104423
+      },
+      {
+        "path": "theme/assets/henley-black-480.jpg",
+        "bytes": 104423
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-960.jpg",
+        "bytes": 371547
+      },
+      {
+        "path": "theme/assets/henley-black-960.jpg",
+        "bytes": 371547
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-alt-1200.jpg",
+        "bytes": 304475
+      },
+      {
+        "path": "theme/assets/henley-black-alt-1200.jpg",
+        "bytes": 304475
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-alt-480.jpg",
+        "bytes": 67381
+      },
+      {
+        "path": "theme/assets/henley-black-alt-480.jpg",
+        "bytes": 67381
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-black-alt-960.jpg",
+        "bytes": 212269
+      },
+      {
+        "path": "theme/assets/henley-black-alt-960.jpg",
+        "bytes": 212269
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-1200.jpg",
+        "bytes": 128087
+      },
+      {
+        "path": "theme/assets/henley-brown-1200.jpg",
+        "bytes": 128087
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-480.jpg",
+        "bytes": 24978
+      },
+      {
+        "path": "theme/assets/henley-brown-480.jpg",
+        "bytes": 24978
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-960.jpg",
+        "bytes": 82497
+      },
+      {
+        "path": "theme/assets/henley-brown-960.jpg",
+        "bytes": 82497
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-alt-1200.jpg",
+        "bytes": 394613
+      },
+      {
+        "path": "theme/assets/henley-brown-alt-1200.jpg",
+        "bytes": 394613
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-alt-480.jpg",
+        "bytes": 61741
+      },
+      {
+        "path": "theme/assets/henley-brown-alt-480.jpg",
+        "bytes": 61741
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-brown-alt-960.jpg",
+        "bytes": 247874
+      },
+      {
+        "path": "theme/assets/henley-brown-alt-960.jpg",
+        "bytes": 247874
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-1200.jpg",
+        "bytes": 483093
+      },
+      {
+        "path": "theme/assets/henley-grey-1200.jpg",
+        "bytes": 483093
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-480.jpg",
+        "bytes": 55795
+      },
+      {
+        "path": "theme/assets/henley-grey-480.jpg",
+        "bytes": 55795
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-960.jpg",
+        "bytes": 285055
+      },
+      {
+        "path": "theme/assets/henley-grey-960.jpg",
+        "bytes": 285055
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-alt-1200.jpg",
+        "bytes": 306272
+      },
+      {
+        "path": "theme/assets/henley-grey-alt-1200.jpg",
+        "bytes": 306272
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-alt-480.jpg",
+        "bytes": 60510
+      },
+      {
+        "path": "theme/assets/henley-grey-alt-480.jpg",
+        "bytes": 60510
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-grey-alt-960.jpg",
+        "bytes": 207192
+      },
+      {
+        "path": "theme/assets/henley-grey-alt-960.jpg",
+        "bytes": 207192
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-long-white-1200.jpg",
+        "bytes": 234226
+      },
+      {
+        "path": "theme/assets/henley-long-white-1200.jpg",
+        "bytes": 234226
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-long-white-480.jpg",
+        "bytes": 51446
+      },
+      {
+        "path": "theme/assets/henley-long-white-480.jpg",
+        "bytes": 51446
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-long-white-960.jpg",
+        "bytes": 165913
+      },
+      {
+        "path": "theme/assets/henley-long-white-960.jpg",
+        "bytes": 165913
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-macro-1200.jpg",
+        "bytes": 301443
+      },
+      {
+        "path": "theme/assets/henley-macro-1200.jpg",
+        "bytes": 301443
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-macro-480.jpg",
+        "bytes": 41612
+      },
+      {
+        "path": "theme/assets/henley-macro-480.jpg",
+        "bytes": 41612
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-macro-960.jpg",
+        "bytes": 187142
+      },
+      {
+        "path": "theme/assets/henley-macro-960.jpg",
+        "bytes": 187142
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-1200.jpg",
+        "bytes": 302264
+      },
+      {
+        "path": "theme/assets/henley-white-1200.jpg",
+        "bytes": 302264
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-1600.jpg",
+        "bytes": 698890
+      },
+      {
+        "path": "theme/assets/henley-white-1600.jpg",
+        "bytes": 698890
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-480.jpg",
+        "bytes": 35861
+      },
+      {
+        "path": "theme/assets/henley-white-480.jpg",
+        "bytes": 35861
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-960.jpg",
+        "bytes": 179801
+      },
+      {
+        "path": "theme/assets/henley-white-960.jpg",
+        "bytes": 179801
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-alt-1200.jpg",
+        "bytes": 363450
+      },
+      {
+        "path": "theme/assets/henley-white-alt-1200.jpg",
+        "bytes": 363450
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-alt-1600.jpg",
+        "bytes": 641610
+      },
+      {
+        "path": "theme/assets/henley-white-alt-1600.jpg",
+        "bytes": 641610
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-alt-480.jpg",
+        "bytes": 71352
+      },
+      {
+        "path": "theme/assets/henley-white-alt-480.jpg",
+        "bytes": 71352
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/henley-white-alt-960.jpg",
+        "bytes": 249213
+      },
+      {
+        "path": "theme/assets/henley-white-alt-960.jpg",
+        "bytes": 249213
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-cafe-1200.jpg",
+        "bytes": 299517
+      },
+      {
+        "path": "theme/assets/hero-cafe-1200.jpg",
+        "bytes": 299517
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-cafe-2400.jpg",
+        "bytes": 996294
+      },
+      {
+        "path": "theme/assets/hero-cafe-2400.jpg",
+        "bytes": 996294
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-cafe-480.jpg",
+        "bytes": 57674
+      },
+      {
+        "path": "theme/assets/hero-cafe-480.jpg",
+        "bytes": 57674
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-cafe-960.jpg",
+        "bytes": 199704
+      },
+      {
+        "path": "theme/assets/hero-cafe-960.jpg",
+        "bytes": 199704
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-mesh-1200.jpg",
+        "bytes": 509103
+      },
+      {
+        "path": "theme/assets/hero-mesh-1200.jpg",
+        "bytes": 509103
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-mesh-2400.jpg",
+        "bytes": 2045850
+      },
+      {
+        "path": "theme/assets/hero-mesh-2400.jpg",
+        "bytes": 2045850
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-mesh-480.jpg",
+        "bytes": 77272
+      },
+      {
+        "path": "theme/assets/hero-mesh-480.jpg",
+        "bytes": 77272
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-mesh-960.jpg",
+        "bytes": 320579
+      },
+      {
+        "path": "theme/assets/hero-mesh-960.jpg",
+        "bytes": 320579
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-wardrobe-1200.jpg",
+        "bytes": 323776
+      },
+      {
+        "path": "theme/assets/hero-wardrobe-1200.jpg",
+        "bytes": 323776
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-wardrobe-2400.jpg",
+        "bytes": 940829
+      },
+      {
+        "path": "theme/assets/hero-wardrobe-2400.jpg",
+        "bytes": 940829
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-wardrobe-480.jpg",
+        "bytes": 69250
+      },
+      {
+        "path": "theme/assets/hero-wardrobe-480.jpg",
+        "bytes": 69250
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/hero-wardrobe-960.jpg",
+        "bytes": 223318
+      },
+      {
+        "path": "theme/assets/hero-wardrobe-960.jpg",
+        "bytes": 223318
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/librecaslondisplay-OFL.txt",
+        "bytes": 4403
+      },
+      {
+        "path": "research/font-licenses/librecaslondisplay-OFL.txt",
+        "bytes": 4403
+      },
+      {
+        "path": "theme/assets/librecaslondisplay-OFL.txt",
+        "bytes": 4403
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-brown-1200.jpg",
+        "bytes": 230518
+      },
+      {
+        "path": "theme/assets/look-brown-1200.jpg",
+        "bytes": 230518
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-brown-480.jpg",
+        "bytes": 59085
+      },
+      {
+        "path": "theme/assets/look-brown-480.jpg",
+        "bytes": 59085
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-brown-960.jpg",
+        "bytes": 167260
+      },
+      {
+        "path": "theme/assets/look-brown-960.jpg",
+        "bytes": 167260
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-cafe-1200.jpg",
+        "bytes": 287106
+      },
+      {
+        "path": "theme/assets/look-cafe-1200.jpg",
+        "bytes": 287106
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-cafe-480.jpg",
+        "bytes": 58320
+      },
+      {
+        "path": "theme/assets/look-cafe-480.jpg",
+        "bytes": 58320
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-cafe-960.jpg",
+        "bytes": 194994
+      },
+      {
+        "path": "theme/assets/look-cafe-960.jpg",
+        "bytes": 194994
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-recline-1200.jpg",
+        "bytes": 323391
+      },
+      {
+        "path": "theme/assets/look-recline-1200.jpg",
+        "bytes": 323391
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-recline-480.jpg",
+        "bytes": 74772
+      },
+      {
+        "path": "theme/assets/look-recline-480.jpg",
+        "bytes": 74772
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-recline-960.jpg",
+        "bytes": 231257
+      },
+      {
+        "path": "theme/assets/look-recline-960.jpg",
+        "bytes": 231257
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-riverside-1200.jpg",
+        "bytes": 358534
+      },
+      {
+        "path": "theme/assets/look-riverside-1200.jpg",
+        "bytes": 358534
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-riverside-480.jpg",
+        "bytes": 79943
+      },
+      {
+        "path": "theme/assets/look-riverside-480.jpg",
+        "bytes": 79943
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-riverside-960.jpg",
+        "bytes": 250287
+      },
+      {
+        "path": "theme/assets/look-riverside-960.jpg",
+        "bytes": 250287
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-studio-1200.jpg",
+        "bytes": 627099
+      },
+      {
+        "path": "theme/assets/look-studio-1200.jpg",
+        "bytes": 627099
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-studio-480.jpg",
+        "bytes": 107910
+      },
+      {
+        "path": "theme/assets/look-studio-480.jpg",
+        "bytes": 107910
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/look-studio-960.jpg",
+        "bytes": 417068
+      },
+      {
+        "path": "theme/assets/look-studio-960.jpg",
+        "bytes": 417068
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-1200.jpg",
+        "bytes": 176387
+      },
+      {
+        "path": "theme/assets/mesh-black-1200.jpg",
+        "bytes": 176387
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-1600.jpg",
+        "bytes": 358668
+      },
+      {
+        "path": "theme/assets/mesh-black-1600.jpg",
+        "bytes": 358668
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-480.jpg",
+        "bytes": 30431
+      },
+      {
+        "path": "theme/assets/mesh-black-480.jpg",
+        "bytes": 30431
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-960.jpg",
+        "bytes": 113312
+      },
+      {
+        "path": "theme/assets/mesh-black-960.jpg",
+        "bytes": 113312
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-alt-1200.jpg",
+        "bytes": 472194
+      },
+      {
+        "path": "theme/assets/mesh-black-alt-1200.jpg",
+        "bytes": 472194
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-alt-480.jpg",
+        "bytes": 85634
+      },
+      {
+        "path": "theme/assets/mesh-black-alt-480.jpg",
+        "bytes": 85634
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-black-alt-960.jpg",
+        "bytes": 311737
+      },
+      {
+        "path": "theme/assets/mesh-black-alt-960.jpg",
+        "bytes": 311737
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-white-1200.jpg",
+        "bytes": 431676
+      },
+      {
+        "path": "theme/assets/mesh-white-1200.jpg",
+        "bytes": 431676
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-white-480.jpg",
+        "bytes": 91593
+      },
+      {
+        "path": "theme/assets/mesh-white-480.jpg",
+        "bytes": 91593
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/mesh-white-960.jpg",
+        "bytes": 301013
+      },
+      {
+        "path": "theme/assets/mesh-white-960.jpg",
+        "bytes": 301013
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-1200.jpg",
+        "bytes": 497398
+      },
+      {
+        "path": "theme/assets/pleated-pants-1200.jpg",
+        "bytes": 497398
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-480.jpg",
+        "bytes": 100324
+      },
+      {
+        "path": "theme/assets/pleated-pants-480.jpg",
+        "bytes": 100324
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-960.jpg",
+        "bytes": 349313
+      },
+      {
+        "path": "theme/assets/pleated-pants-960.jpg",
+        "bytes": 349313
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-alt-1200.jpg",
+        "bytes": 348347
+      },
+      {
+        "path": "theme/assets/pleated-pants-alt-1200.jpg",
+        "bytes": 348347
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-alt-480.jpg",
+        "bytes": 76897
+      },
+      {
+        "path": "theme/assets/pleated-pants-alt-480.jpg",
+        "bytes": 76897
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-alt-960.jpg",
+        "bytes": 249442
+      },
+      {
+        "path": "theme/assets/pleated-pants-alt-960.jpg",
+        "bytes": 249442
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-third-1200.jpg",
+        "bytes": 507853
+      },
+      {
+        "path": "theme/assets/pleated-pants-third-1200.jpg",
+        "bytes": 507853
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-third-480.jpg",
+        "bytes": 109603
+      },
+      {
+        "path": "theme/assets/pleated-pants-third-480.jpg",
+        "bytes": 109603
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/pleated-pants-third-960.jpg",
+        "bytes": 364176
+      },
+      {
+        "path": "theme/assets/pleated-pants-third-960.jpg",
+        "bytes": 364176
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/predictive-search.js",
+        "bytes": 3975
+      },
+      {
+        "path": "theme/assets/predictive-search.js",
+        "bytes": 3975
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-black-poster.jpg",
+        "bytes": 19451
+      },
+      {
+        "path": "theme/assets/reel-black-poster.jpg",
+        "bytes": 19451
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-black.mp4",
+        "bytes": 284346
+      },
+      {
+        "path": "theme/assets/reel-black.mp4",
+        "bytes": 284346
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-brown-desktop.mp4",
+        "bytes": 4773076
+      },
+      {
+        "path": "theme/assets/reel-brown-desktop.mp4",
+        "bytes": 4773076
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-brown-desktop.webm",
+        "bytes": 2255018
+      },
+      {
+        "path": "theme/assets/reel-brown-desktop.webm",
+        "bytes": 2255018
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-brown-poster.jpg",
+        "bytes": 118402
+      },
+      {
+        "path": "theme/assets/reel-brown-poster.jpg",
+        "bytes": 118402
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-brown.mp4",
+        "bytes": 1870151
+      },
+      {
+        "path": "theme/assets/reel-brown.mp4",
+        "bytes": 1870151
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-navy-desktop.mp4",
+        "bytes": 11935779
+      },
+      {
+        "path": "theme/assets/reel-navy-desktop.mp4",
+        "bytes": 11935779
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-navy-desktop.webm",
+        "bytes": 4054892
+      },
+      {
+        "path": "theme/assets/reel-navy-desktop.webm",
+        "bytes": 4054892
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-navy-poster.jpg",
+        "bytes": 221157
+      },
+      {
+        "path": "theme/assets/reel-navy-poster.jpg",
+        "bytes": 221157
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-navy.mp4",
+        "bytes": 4080757
+      },
+      {
+        "path": "theme/assets/reel-navy.mp4",
+        "bytes": 4080757
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-white-desktop.mp4",
+        "bytes": 8524019
+      },
+      {
+        "path": "theme/assets/reel-white-desktop.mp4",
+        "bytes": 8524019
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-white-desktop.webm",
+        "bytes": 2607733
+      },
+      {
+        "path": "theme/assets/reel-white-desktop.webm",
+        "bytes": 2607733
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-white-poster.jpg",
+        "bytes": 97718
+      },
+      {
+        "path": "theme/assets/reel-white-poster.jpg",
+        "bytes": 97718
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/reel-white.mp4",
+        "bytes": 3371411
+      },
+      {
+        "path": "theme/assets/reel-white.mp4",
+        "bytes": 3371411
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/refinements.css",
+        "bytes": 18090
+      },
+      {
+        "path": "theme/assets/refinements.css",
+        "bytes": 18090
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/refinements.js",
+        "bytes": 3454
+      },
+      {
+        "path": "theme/assets/refinements.js",
+        "bytes": 3454
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/story-garden-1200.jpg",
+        "bytes": 515318
+      },
+      {
+        "path": "theme/assets/story-garden-1200.jpg",
+        "bytes": 515318
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/story-garden-480.jpg",
+        "bytes": 94328
+      },
+      {
+        "path": "theme/assets/story-garden-480.jpg",
+        "bytes": 94328
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/story-garden-960.jpg",
+        "bytes": 356838
+      },
+      {
+        "path": "theme/assets/story-garden-960.jpg",
+        "bytes": 356838
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/public/assets/theme.css",
+        "bytes": 26443
+      },
+      {
+        "path": "theme/assets/theme.css",
+        "bytes": 26443
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/config/settings_data.json",
+        "bytes": 415
+      },
+      {
+        "path": "theme/config/settings_data.json",
+        "bytes": 415
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/config/settings_schema.json",
+        "bytes": 895
+      },
+      {
+        "path": "theme/config/settings_schema.json",
+        "bytes": 895
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/locales/en.default.json",
+        "bytes": 165
+      },
+      {
+        "path": "theme/locales/en.default.json",
+        "bytes": 165
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/best-sellers-pair.liquid",
+        "bytes": 1710
+      },
+      {
+        "path": "theme/sections/best-sellers-pair.liquid",
+        "bytes": 1710
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/campaign.liquid",
+        "bytes": 1667
+      },
+      {
+        "path": "theme/sections/campaign.liquid",
+        "bytes": 1667
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/details-story.liquid",
+        "bytes": 1058
+      },
+      {
+        "path": "theme/sections/details-story.liquid",
+        "bytes": 1058
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/editorial-story.liquid",
+        "bytes": 1553
+      },
+      {
+        "path": "theme/sections/editorial-story.liquid",
+        "bytes": 1553
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/ending-strip.liquid",
+        "bytes": 373
+      },
+      {
+        "path": "theme/sections/ending-strip.liquid",
+        "bytes": 373
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/featured-collection.liquid",
+        "bytes": 1523
+      },
+      {
+        "path": "theme/sections/featured-collection.liquid",
+        "bytes": 1523
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/header.liquid",
+        "bytes": 3179
+      },
+      {
+        "path": "theme/sections/header.liquid",
+        "bytes": 3179
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/hero.liquid",
+        "bytes": 4738
+      },
+      {
+        "path": "theme/sections/hero.liquid",
+        "bytes": 4738
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/lookbook.liquid",
+        "bytes": 1949
+      },
+      {
+        "path": "theme/sections/lookbook.liquid",
+        "bytes": 1949
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/main-404.liquid",
+        "bytes": 300
+      },
+      {
+        "path": "theme/sections/main-404.liquid",
+        "bytes": 300
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/main-page.liquid",
+        "bytes": 170
+      },
+      {
+        "path": "theme/sections/main-page.liquid",
+        "bytes": 170
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/predictive-search.liquid",
+        "bytes": 838
+      },
+      {
+        "path": "theme/sections/predictive-search.liquid",
+        "bytes": 838
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/product-categories.liquid",
+        "bytes": 1354
+      },
+      {
+        "path": "theme/sections/product-categories.liquid",
+        "bytes": 1354
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/product-recommendations.liquid",
+        "bytes": 1532
+      },
+      {
+        "path": "theme/sections/product-recommendations.liquid",
+        "bytes": 1532
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/sections/social-editorial.liquid",
+        "bytes": 1489
+      },
+      {
+        "path": "theme/sections/social-editorial.liquid",
+        "bytes": 1489
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/snippets/cart-drawer.liquid",
+        "bytes": 511
+      },
+      {
+        "path": "theme/snippets/cart-drawer.liquid",
+        "bytes": 511
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/snippets/icon.liquid",
+        "bytes": 729
+      },
+      {
+        "path": "theme/snippets/icon.liquid",
+        "bytes": 729
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/snippets/image.liquid",
+        "bytes": 1303
+      },
+      {
+        "path": "theme/snippets/image.liquid",
+        "bytes": 1303
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/snippets/predictive-search-form.liquid",
+        "bytes": 1201
+      },
+      {
+        "path": "theme/snippets/predictive-search-form.liquid",
+        "bytes": 1201
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/snippets/product-card.liquid",
+        "bytes": 1343
+      },
+      {
+        "path": "theme/snippets/product-card.liquid",
+        "bytes": 1343
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/404.json",
+        "bytes": 119
+      },
+      {
+        "path": "theme/templates/404.json",
+        "bytes": 119
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/cart.json",
+        "bytes": 120
+      },
+      {
+        "path": "theme/templates/cart.json",
+        "bytes": 120
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/collection.json",
+        "bytes": 126
+      },
+      {
+        "path": "theme/templates/collection.json",
+        "bytes": 126
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/index.json",
+        "bytes": 6691
+      },
+      {
+        "path": "theme/templates/index.json",
+        "bytes": 6691
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/page.json",
+        "bytes": 120
+      },
+      {
+        "path": "theme/templates/page.json",
+        "bytes": 120
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/product.json",
+        "bytes": 271
+      },
+      {
+        "path": "theme/templates/product.json",
+        "bytes": 271
+      }
+    ],
+    [
+      {
+        "path": "portfolio-demo/theme/templates/search.json",
+        "bytes": 122
+      },
+      {
+        "path": "theme/templates/search.json",
+        "bytes": 122
+      }
+    ]
+  ]
+}

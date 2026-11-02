@@ -1,14 +1,16 @@
-# ZIPSTERS — Shopify Fashion Storefront
+# ZIPSTERS — Shopify Liquid theme and standalone portfolio demo
 
-**A custom-built fashion e-commerce experience, combining editorial design with modern storefront functionality.**
+**A fashion storefront implementation with editorial design, local demo commerce and a separately maintained Shopify theme.**
 
 [**Live Website**](https://zipsters-demo.vercel.app) | [**GitHub Repository**](https://github.com/PobGare/zipsters)
+
+**Demo checkout; no real orders or payments.** The linked website runs the standalone demo, not a connected Shopify store.
 
 ---
 
 ## Project Overview
 
-ZIPSTERS is a custom Shopify storefront developed for a contemporary fashion brand.
+ZIPSTERS presents a custom storefront implementation using Zipsters brand imagery. This repository documents the theme, frontend interactions and standalone demonstration; it does not establish commissioned engagement, brand endorsement or production merchant use.
 
 The project focuses on creating a premium shopping experience through strong visual storytelling, responsive layouts, intuitive product discovery, and smooth interactions.
 
@@ -99,9 +101,33 @@ ZIPSTERS is designed for desktop, tablet, and mobile browsing, with particular a
 
 ## Development & Testing
 
-The standalone demo was tested with automated checks and desktop/mobile browser testing covering core storefront functionality.
+Use Node.js 24 and npm. From the repository root:
+
+```sh
+cd portfolio-demo
+npm ci
+npm run dev
+```
+
+Open `http://localhost:4174`. In another terminal in `portfolio-demo`, run `npm test`, `npm run audit`, `npm run build`, and `npm run verify:function`. The build emits static assets; the Vercel Node function renders pages, so `dist` alone is not a complete website.
+
+For the separate Shopify presentation preview, run `npm ci` and `npm run dev` at the repository root (port 4173). Root `npm run check` validates Liquid/JSON; root `npm run audit` requires that preview server running. Shopify production setup still requires a real catalog, inventory, policies, payments and shipping.
+
+The hosted Vercel demo is working; the October startup error is a historical repaired issue, not its current status. See the [maintenance report](portfolio-demo/qa/MAINTENANCE.md) for current checks, dependency advisories, asset rights gaps and browser limitations. Checkout only simulates completion and never takes payment or creates a real order.
 
 The Shopify theme is maintained separately from the demo implementation.
+
+| Path | Purpose |
+| --- | --- |
+| `theme/` | Original Shopify Liquid theme; not modified in this maintenance pass |
+| `portfolio-demo/` | Independently runnable Vercel demo, copied media, sample catalog and tests |
+| `assets/` | Retained original photography and archival renditions |
+| `research/` | Catalog/provenance, font licenses and dated historical QA |
+| `scripts/` | Root preview/check/package tooling plus historical generators; see [script guide](scripts/README.md) |
+
+The theme and demo intentionally retain independent asset copies. Do not delete duplicates or rerun historical generators as routine setup. [Asset rights](ASSET_RIGHTS.md) records permission gaps and the provenance source of truth.
+
+Photo/video attribution is recorded in the provenance manifests, but attribution is not permission to redistribute. Written brand/creator authorization should be retained for public portfolio use; no such grant is established by this repository. Font license texts are included. No media was removed or replaced during maintenance.
 
 ## Developer
 
