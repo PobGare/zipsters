@@ -1,141 +1,269 @@
-# ZIPSTERS — Shopify Liquid theme and standalone portfolio demo
+# ZIPSTERS — Custom Shopify Theme & Fashion E-commerce Experience
 
-**A fashion storefront implementation with editorial design, local demo commerce and a separately maintained Shopify theme.**
+A premium fashion storefront project combining editorial design, responsive development, and interactive shopping experiences.
 
-[**Live Website**](https://zipsters-demo.vercel.app) | [**GitHub Repository**](https://github.com/PobGare/zipsters)
+Built with a focus on **brand identity, visual storytelling, seamless navigation, and thoughtful e-commerce interactions.**
 
-**Demo checkout; no real orders or payments.** The linked website runs the standalone demo, not a connected Shopify store.
+**[Explore Live Demo](https://zipsters-demo.vercel.app/)** · **[View GitHub Repository](https://github.com/PobGare/zipsters)**
+
+> **Demo information:** The public preview is a standalone portfolio demonstration, not a connected Shopify store. Checkout is simulated; no actual orders or payments are processed.
 
 ---
 
 ## Project Overview
 
-ZIPSTERS presents a custom storefront implementation using Zipsters brand imagery. This repository documents the theme, frontend interactions and standalone demonstration; it does not establish commissioned engagement, brand endorsement or production merchant use.
+ZIPSTERS showcases a custom fashion e-commerce experience designed to give a clothing brand a distinctive digital presence.
 
-The project focuses on creating a premium shopping experience through strong visual storytelling, responsive layouts, intuitive product discovery, and smooth interactions.
+The project brings together bold visual presentation, carefully structured product collections, responsive layouts, and intuitive shopping interactions.
 
-Built with a mobile-first mindset, the storefront combines fashion-focused presentation with practical e-commerce functionality.
+Rather than relying on a generic storefront experience, the design emphasizes the brand's products through strong imagery, intentional typography, clean layouts, and smooth transitions.
 
-## Preview
+The repository contains both a **custom Shopify Liquid theme** and an **independently hosted storefront demo**.
 
-Captured from the standalone demo in Chromium at 2× device pixel ratio. Click any preview to view the full-resolution image.
+The public demo allows visitors to explore the design and shopping interactions without requiring a live Shopify store.
+
+This repository demonstrates the storefront implementation. It does not independently establish a commissioned engagement, brand endorsement, or production deployment.
+
+---
+
+## Project Showcase
 
 ### Desktop Homepage
 
-<a href="portfolio-demo/showcase/desktop-home.png">
-  <img src="portfolio-demo/showcase/desktop-home.png" alt="ZIPSTERS desktop homepage with the Henleys campaign and category previews" width="960">
-</a>
+An editorial homepage featuring the Henleys campaign, category discovery, product showcases, and fashion-focused storytelling.
+
+![ZIPSTERS desktop homepage](portfolio-demo/showcase/desktop-home.png)
 
 ### Mobile Experience
 
-<p align="center">
-  <a href="portfolio-demo/showcase/mobile-home.png">
-    <img src="portfolio-demo/showcase/mobile-home.png" alt="ZIPSTERS mobile homepage with responsive navigation and the Henleys campaign" width="390">
-  </a>
-</p>
+Responsive navigation, carefully adapted layouts, and touch-friendly shopping interactions.
+
+![ZIPSTERS mobile homepage](portfolio-demo/showcase/mobile-home.png)
 
 ### Product Detail Page
 
-<a href="portfolio-demo/showcase/desktop-product.png">
-  <img src="portfolio-demo/showcase/desktop-product.png" alt="ZIPSTERS desktop product page with the Black Henley gallery, size selector, and purchase controls" width="960">
-</a>
+An interactive product presentation with image galleries, product information, size selection, and purchase controls.
+
+![ZIPSTERS product detail page](portfolio-demo/showcase/desktop-product.png)
+
+**[Explore the Interactive Demo](https://zipsters-demo.vercel.app/)**
+
+---
 
 ## Key Features
 
-### Homepage & Visual Experience
+### Premium Storefront Design
 
+- Custom fashion-focused visual direction
 - Automatic hero slideshow with smooth transitions
-- Responsive product category navigation
-- Best Sellers showcase
-- Editorial product photography
-- Get the Look section with fashion content
-- Responsive header, navigation, and footer
+- Editorial product photography and engaging campaign sections
+- Responsive category navigation
+- Best Sellers product showcase
+- Get the Look section featuring fashion content
+- Carefully designed header, navigation, and footer
+- Consistent typography, spacing, and responsive layouts
 
-### Product Pages
+### Interactive Product Pages
 
-- Interactive product image galleries
-- Thumbnail navigation and image controls
-- Mobile-friendly product browsing
-- Product information and details
-- Add to Bag and Buy Now interfaces
+- Product galleries with thumbnail navigation
+- Interactive image controls
+- Responsive product presentation
+- Product details and size selection interfaces
+- Add to Bag and Buy Now interactions
 - Related product recommendations
+- Mobile-friendly browsing and touch interactions
 
 ### Shopping Experience
 
 - Product search and suggestions
 - Collection filtering and sorting
 - Interactive shopping bag drawer
-- Persistent cart in the standalone demo
-- Responsive navigation and mobile menu
-- Smooth transitions and carefully managed scrolling
+- Persistent cart functionality in the standalone demo
+- Responsive mobile navigation
+- Smooth drawer transitions and scroll management
+- Simulated checkout flow for demonstration purposes
+
+### Responsive Development
+
+The experience is designed for desktop, tablet, and mobile devices, with attention to:
+
+- Responsive imagery and layouts
+- Mobile-first navigation considerations
+- Touch-friendly controls
+- Product gallery usability
+- Readable typography and spacing
+- Consistent shopping interactions across screen sizes
+
+---
 
 ## Technology Stack
 
-- **Shopify Liquid** — Custom theme templates and sections
-- **HTML5** — Semantic page structure
-- **CSS3** — Responsive layouts, styling, and animations
-- **JavaScript** — Interactive storefront functionality
-- **Node.js** — Standalone demo rendering and supporting functionality
-- **Vercel** — Public deployment of the standalone demo
+| Technology | Purpose |
+|---|---|
+| Shopify Liquid | Custom Shopify theme templates and sections |
+| HTML5 | Semantic storefront structure |
+| CSS3 | Responsive layouts, styling, and animations |
+| JavaScript | Product interactions, navigation, search, filters, and cart functionality |
+| Node.js | Standalone demo rendering and supporting functionality |
+| Vercel | Deployment of the public portfolio demo |
+| Git & GitHub | Version control and project maintenance |
 
-## Shopify Theme & Live Demo
+---
 
-The repository contains the original Shopify theme and a separate standalone portfolio demo.
+## Shopify Theme & Standalone Demo
 
-The original theme is designed for integration with a Shopify store.
+The project includes two separate implementations.
 
-The [live demo](https://zipsters-demo.vercel.app) recreates the storefront experience independently of Shopify so visitors can explore its layout, product pages, navigation, search, filters, and shopping interactions.
+### Custom Shopify Theme
 
-**Note:** The standalone demo uses illustrative product data and simulated checkout functionality. It does not process real orders or payments.
+The original Shopify Liquid theme is developed for integration with the Shopify platform.
 
-## Responsive Design
+It includes custom templates, storefront sections, responsive styling, and interactive shopping features.
 
-ZIPSTERS is designed for desktop, tablet, and mobile browsing, with particular attention to:
+Connecting the theme to a production store requires Shopify configuration, a live product catalog, inventory, applicable policies, payment setup, and shipping settings.
 
-- Responsive image presentation
-- Touch-friendly navigation
-- Consistent typography and spacing
-- Mobile product galleries
-- Smooth shopping interactions
-- Usable layouts across screen sizes
+### Standalone Portfolio Demo
 
-## Development & Testing
+The [public demo](https://zipsters-demo.vercel.app/) recreates the storefront experience independently of Shopify.
 
-Use Node.js 24 and npm. From the repository root:
+Visitors can explore the homepage, collections, product detail pages, navigation, shopping bag, search, and other interactive features.
 
-```sh
+The demo uses sample product data and simulated checkout functionality.
+
+**The hosted demo does not process payments, create real orders, or represent a production Shopify storefront.**
+
+---
+
+## Project Structure
+
+| Directory | Purpose |
+|---|---|
+| `theme/` | Original Shopify Liquid theme |
+| `portfolio-demo/` | Independently runnable storefront demo, assets, sample catalog, and tests |
+| `assets/` | Original photography and retained media renditions |
+| `research/` | Catalog provenance, licensing information, and historical quality-assurance records |
+| `scripts/` | Preview tooling, validation scripts, packaging utilities, and historical generators |
+
+The Shopify theme and portfolio demo are maintained separately.
+
+Some media assets are intentionally retained in both implementations. Historical asset generators and cleanup scripts should not be run as routine setup without reviewing their documented purpose.
+
+---
+
+## Local Development
+
+### Requirements
+
+- Node.js 24
+- npm
+
+### Run the Standalone Demo
+
+From the repository root:
+
+```bash
 cd portfolio-demo
 npm ci
 npm run dev
 ```
 
-Open `http://localhost:4174`. In another terminal in `portfolio-demo`, run `npm test`, `npm run audit`, `npm run build`, and `npm run verify:function`. The build emits static assets; the Vercel Node function renders pages, so `dist` alone is not a complete website.
+Open:
 
-For the separate Shopify presentation preview, run `npm ci` and `npm run dev` at the repository root (port 4173). Root `npm run check` validates Liquid/JSON; root `npm run audit` requires that preview server running. Shopify production setup still requires a real catalog, inventory, policies, payments and shipping.
+`http://localhost:4174`
 
-The hosted Vercel demo is working; the October startup error is a historical repaired issue, not its current status. See the [maintenance report](portfolio-demo/qa/MAINTENANCE.md) for current checks, dependency advisories, asset rights gaps and browser limitations. Checkout only simulates completion and never takes payment or creates a real order.
+### Test the Demo
 
-The Shopify theme is maintained separately from the demo implementation.
+In another terminal, from `portfolio-demo/`:
 
-| Path | Purpose |
-| --- | --- |
-| `theme/` | Original Shopify Liquid theme; not modified in this maintenance pass |
-| `portfolio-demo/` | Independently runnable Vercel demo, copied media, sample catalog and tests |
-| `assets/` | Retained original photography and archival renditions |
-| `research/` | Catalog/provenance, font licenses and dated historical QA |
-| `scripts/` | Root preview/check/package tooling plus historical generators; see [script guide](scripts/README.md) |
+```bash
+npm test
+npm run audit
+npm run build
+npm run verify:function
+```
 
-The theme and demo intentionally retain independent asset copies. Do not delete duplicates or rerun historical generators as routine setup. [Asset rights](ASSET_RIGHTS.md) records permission gaps and the provenance source of truth.
+The build generates static assets, while the Vercel Node function handles page rendering. The `dist` directory by itself is not a complete runnable storefront.
 
-Photo/video attribution is recorded in the provenance manifests, but attribution is not permission to redistribute. Written brand/creator authorization should be retained for public portfolio use; no such grant is established by this repository. Font license texts are included. No media was removed or replaced during maintenance.
+### Run the Shopify Theme Preview
 
-## Developer
+From the repository root:
 
-**Muhammad Bin Qasim**  
-Web Developer
+```bash
+npm ci
+npm run dev
+```
 
-[Portfolio](https://pobgare.github.io/portfolio/) | [GitHub](https://github.com/PobGare)
+Open:
+
+`http://localhost:4173`
+
+### Validate the Shopify Theme
+
+From the repository root:
+
+```bash
+npm run check
+npm run audit
+```
+
+The root `check` command validates Liquid and JSON files. The root audit requires the local preview server to be running.
+
+For additional technical details, see the [Script Guide](scripts/README.md).
 
 ---
 
-*Developed as a custom fashion e-commerce storefront project.*
+## Development & Quality Assurance
+
+The project includes automated checks and maintenance documentation for the standalone demo and Shopify theme preview.
+
+Areas covered include:
+
+- Storefront functionality
+- Navigation and interactive elements
+- Responsive behavior
+- Build verification
+- Theme file validation
+- Browser-based checks
+- Dependency and maintenance review
+
+The hosted demo is operational. Earlier startup issues are documented as historical maintenance items rather than current limitations.
+
+For current verification details, known limitations, and dependency information, see the [Maintenance Report](portfolio-demo/qa/MAINTENANCE.md).
+
+---
+
+## Media & Asset Rights
+
+ZIPSTERS uses fashion imagery and related media assets documented in the repository's provenance records.
+
+Media attribution and source information do not automatically grant rights to redistribute or commercially reuse those assets.
+
+The repository's [Asset Rights Documentation](ASSET_RIGHTS.md) identifies known permission gaps and references the relevant provenance information.
+
+Written authorization for public portfolio use or redistribution should be retained where required. The repository does not independently establish that all necessary permissions have been granted.
+
+Font license information is included in the project documentation.
+
+---
+
+## About the Developer
+
+I'm **Muhammad Bin Qasim**, a web developer focused on creating responsive websites, custom storefronts, and interactive digital experiences.
+
+I enjoy combining visual design with practical development to build interfaces that feel polished, intuitive, and purposeful.
+
+My work includes business websites, Shopify theme customization, e-commerce experiences, and modern web applications.
+
+---
+
+## Let's Connect
+
+I'm open to freelance projects, collaborations, internships, and web development opportunities.
+
+**[Portfolio](https://pobgare.github.io/portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/muhammad-bin-qasim-dev/)** · **[Upwork](https://www.upwork.com/freelancers/~01d4fed98b3719bd6e?mp_source=share)** · **[Fiverr](https://www.fiverr.com/s/2pQ796q)** · **[GitHub](https://github.com/PobGare)**
+
+*Building better digital experiences, one project at a time.*
+
+---
+
+© 2026 Muhammad Bin Qasim
